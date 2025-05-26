@@ -18,6 +18,24 @@
     "dailyMinutesDown": {}
   },
   {
+    "name": "Coral Island",
+    "url": "https://coralisland.wiki/",
+    "icon": "https://coralisland.wiki/w/favicon.ico",
+    "slug": "coral-island",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1751,
+    "timeDay": 1751,
+    "timeWeek": 1751,
+    "timeMonth": 1751,
+    "timeYear": 1751,
+    "dailyMinutesDown": {}
+  },
+  {
     "name": "Nihonmart Production",
     "url": "https://nihonmart.id/",
     "icon": "https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico",
@@ -28,31 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1862,
-    "timeDay": 1862,
-    "timeWeek": 1862,
-    "timeMonth": 1862,
-    "timeYear": 1862,
+    "time": 1845,
+    "timeDay": 1845,
+    "timeWeek": 1845,
+    "timeMonth": 1845,
+    "timeYear": 1845,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Staging No Website",
-    "url": "https://no-website.limecommerce.work",
-    "icon": "https://icons.duckduckgo.com/ip3/no-website.limecommerce.work.ico",
-    "slug": "staging-no-website",
-    "status": "down",
-    "uptime": "60.93%",
-    "uptimeDay": "60.93%",
-    "uptimeWeek": "60.93%",
-    "uptimeMonth": "60.93%",
-    "uptimeYear": "60.93%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2025-05-26": 4
-    }
   }
 ]
