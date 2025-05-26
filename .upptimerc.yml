@@ -19,8 +19,8 @@ notifications:
       port: 587
       secure: false
       auth:
-        user: heru@limecommerce.com
-        pass: zwmh wwyc xfwa kprz
+        user: ${{ secrets.SMTP_USERNAME_HERU }}
+        pass: ${{ secrets.SMTP_PASSWORD_HERU }}
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
