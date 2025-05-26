@@ -11,6 +11,9 @@ sites:
     url: https://coralisland.wiki/
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
+  - name: Test Down Webhook
+    url: https://no-sites-here.limecommerce.com
+    statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
   email:
@@ -35,9 +38,9 @@ status-website:
   name: Uptime
   introTitle: "Welcome to the official **LimeCommerce** status page"
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
-  navbar:
-    - title: Status
-      href: /
+# navbar:
+#    - title: Status
+#      href: /
 #    - title: GitHub
 #      href: https://github.com/$OWNER/$REPO
 # Upptime also supports notifications, assigning issues, and more
