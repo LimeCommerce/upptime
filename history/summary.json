@@ -10,17 +10,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 297,
-    "timeDay": 297,
-    "timeWeek": 297,
-    "timeMonth": 297,
-    "timeYear": 297,
+    "time": 278,
+    "timeDay": 278,
+    "timeWeek": 278,
+    "timeMonth": 278,
+    "timeYear": 278,
     "dailyMinutesDown": {}
   },
   {
     "name": "Staging Mebel",
-    "url": "https://mebel.limecommerce.work",
-    "icon": "https://icons.duckduckgo.com/ip3/mebel.limecommerce.work.ico",
+    "url": "https://this-site-does-not-exist.limecommerce.work",
+    "icon": "https://icons.duckduckgo.com/ip3/this-site-does-not-exist.limecommerce.work.ico",
     "slug": "staging-mebel",
     "status": "down",
     "uptime": "0.07%",
@@ -34,7 +34,7 @@
     "timeMonth": 988,
     "timeYear": 988,
     "dailyMinutesDown": {
-      "2025-05-26": 49
+      "2025-05-26": 60
     }
   }
 ]
