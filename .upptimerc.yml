@@ -34,11 +34,11 @@ status-website:
   cname: uptime.limecommerce.work
 
   # light, dark, night or ocean.
-  # theme: light
+  theme: light
   # baseUrl: /your-repo-name
   logoUrl: https://limecommerce.oss-ap-southeast-5.aliyuncs.com/wp-content/2022/04/logo-color.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introTitle: "**Upptime LimeCommerce**"
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
