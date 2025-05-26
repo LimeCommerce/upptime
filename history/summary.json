@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 286,
-    "timeDay": 286,
-    "timeWeek": 286,
-    "timeMonth": 286,
-    "timeYear": 286,
+    "time": 287,
+    "timeDay": 287,
+    "timeWeek": 287,
+    "timeMonth": 287,
+    "timeYear": 287,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mebel.limecommerce.work.ico",
     "slug": "staging-mebel",
     "status": "down",
-    "uptime": "0.05%",
-    "uptimeDay": "0.05%",
-    "uptimeWeek": "0.05%",
-    "uptimeMonth": "0.05%",
-    "uptimeYear": "0.05%",
-    "time": 994,
-    "timeDay": 994,
-    "timeWeek": 994,
-    "timeMonth": 994,
-    "timeYear": 994,
+    "uptime": "0.03%",
+    "uptimeDay": "0.03%",
+    "uptimeWeek": "0.03%",
+    "uptimeMonth": "0.03%",
+    "uptimeYear": "0.03%",
+    "time": 985,
+    "timeDay": 985,
+    "timeWeek": 985,
+    "timeMonth": 985,
+    "timeYear": 985,
     "dailyMinutesDown": {
-      "2025-05-26": 83
+      "2025-05-26": 146
     }
   },
   {
@@ -54,7 +54,27 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-26": 15
+      "2025-05-26": 78
+    }
+  },
+  {
+    "name": "Staging Down Example",
+    "url": "https://this-site-does-not-exist-example.limecommerce.work",
+    "icon": "https://icons.duckduckgo.com/ip3/this-site-does-not-exist-example.limecommerce.work.ico",
+    "slug": "staging-down-example",
+    "status": "down",
+    "uptime": "12.64%",
+    "uptimeDay": "12.64%",
+    "uptimeWeek": "12.64%",
+    "uptimeMonth": "12.64%",
+    "uptimeYear": "12.64%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-05-26": 0
     }
   }
 ]
