@@ -25,6 +25,10 @@ notifications:
         user: ${{ secrets.SMTP_USERNAME_HERU }}
         pass: ${{ secrets.SMTP_PASSWORD_HERU }}
 
+checks:
+  frequency: 1 # tiap 1 menit
+  retries: 1
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
