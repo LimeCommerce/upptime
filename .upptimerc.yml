@@ -15,9 +15,6 @@ sites:
     url: https://nihonmart.id/
     icon: https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico
     statusPageUrl: https://uptime.limecommerce.work
-  - name: Test Website Down
-    url: https://this-website-is-down.limecommerce.com/
-    statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
   email:
