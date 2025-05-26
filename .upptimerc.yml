@@ -7,24 +7,21 @@ sites:
     url: https://limecommerce.com
     icon: https://www.limecommerce.com/favicon.svg
     statusPageUrl: https://uptime.limecommerce.work
-  - name: Staging Kayu
-    url: https://kayu.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: Staging Fiktif
-    url: https://fiktif.limecommerce.work
+  - name: Staging No Website
+    url: https://no-website.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
   email:
-    to: akhi.young2@gmail.com
-    from: Heru <heru@limecommerce.com>
+    to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
+    from: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
     smtp:
-      host: smtp.gmail.com
-      port: 587
+      host: ${{ secrets.NOTIFICATION_EMAIL_SMTP_HOST }}
+      port: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PORT }}
       secure: false
       auth:
-        user: ${{ secrets.SMTP_USERNAME_HERU }}
-        pass: ${{ secrets.SMTP_PASSWORD_HERU }}
+        user: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
+        pass: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -32,7 +29,7 @@ status-website:
   cname: uptime.limecommerce.work
 
   # light, dark, night or ocean.
-  theme: ocean
+  theme: night
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
