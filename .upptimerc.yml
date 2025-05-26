@@ -14,6 +14,9 @@ sites:
   - name: Test Down Webhook
     url: https://no-sites-here.limecommerce.com
     statusPageUrl: https://uptime.limecommerce.work
+  - name: Test Webhook Discord
+    url: https://no-sites-here-test-discord.limecommerce.com
+    statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
   email:
