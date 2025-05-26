@@ -5,6 +5,7 @@ repo: upptime # The name of this repository
 sites:
   - name: LimeCommerce Production
     url: https://limecommerce.com
+    icon: https://www.limecommerce.com/favicon.svg
     statusPageUrl: https://uptime.limecommerce.work
   - name: Staging Mebel
     url: https://mebel.limecommerce.work
@@ -16,26 +17,13 @@ sites:
     url: https://this-site-does-not-exist-example.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
-notifications:
-  email:
-    to: akhi.young2@gmail.com
-    from: heru@limecommerce.com
-    smtp:
-      host: smtp.gmail.com
-      port: 587
-      secure: false
-      auth:
-        user: ${{ secrets.SMTP_USERNAME_HERU }}
-        pass: ${{ secrets.SMTP_PASSWORD_HERU }}
-
-checks:
-  frequency: 1 # tiap 1 menit
-  retries: 1
-
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.limecommerce.work
+
+  # light, dark, night or ocean.
+  theme: dark
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
