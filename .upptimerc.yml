@@ -7,7 +7,7 @@ sites:
     url: https://limecommerce.com
     statusPageUrl: https://uptime.limecommerce.work
   - name: Staging Mebel
-    url: https://mebel.limecommerce.work
+    url: https://this-site-does-not-exist.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
