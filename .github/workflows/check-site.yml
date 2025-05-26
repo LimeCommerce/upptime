@@ -3,26 +3,19 @@ name: Check Site Status
 on:
   schedule:
     - cron: "*/5 * * * *" # setiap 5 menit
-  workflow_dispatch: # agar bisa dijalankan manual dari GitHub UI
+  workflow_dispatch: # bisa dijalankan manual
 
 jobs:
   check-sites:
     runs-on: ubuntu-latest
     steps:
-      - name: ⬇️ Setup repository
+      - name: ⬇️ Checkout repository content
         uses: actions/checkout@v4
 
-      - name: 📦 Setup Node
-        uses: actions/setup-node@v4
+      - name: ⚡ Run Upptime status checks
+        uses: upptime/uptime-monitor@master
         with:
-          node-version: 20
-
-      - name: 🏗️ Install dependencies
-        run: npm install
-
-      - name: 🚀 Run Upptime status checks
-        run: npx upptime check
+          config: .upptimerc.yml
         env:
-          NOTIFICATION_EMAIL: true
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME_HERU }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD_HERU }}
+          SMTP_USERNAME_HERU: ${{ secrets.SMTP_USERNAME_HERU }}
+          SMTP_PASSWORD_HERU: ${{ secrets.SMTP_PASSWORD_HERU }}
