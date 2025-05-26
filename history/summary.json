@@ -2,7 +2,7 @@
   {
     "name": "LimeCommerce Production",
     "url": "https://limecommerce.com",
-    "icon": "https://icons.duckduckgo.com/ip3/limecommerce.com.ico",
+    "icon": "https://www.limecommerce.com/favicon.svg",
     "slug": "lime-commerce-production",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 287,
-    "timeDay": 287,
-    "timeWeek": 287,
-    "timeMonth": 287,
-    "timeYear": 287,
+    "time": 276,
+    "timeDay": 276,
+    "timeWeek": 276,
+    "timeMonth": 276,
+    "timeYear": 276,
     "dailyMinutesDown": {}
   },
   {
@@ -28,13 +28,13 @@
     "uptimeWeek": "0.02%",
     "uptimeMonth": "0.02%",
     "uptimeYear": "0.02%",
-    "time": 985,
-    "timeDay": 985,
-    "timeWeek": 985,
-    "timeMonth": 985,
-    "timeYear": 985,
+    "time": 1019,
+    "timeDay": 1019,
+    "timeWeek": 1019,
+    "timeMonth": 1019,
+    "timeYear": 1019,
     "dailyMinutesDown": {
-      "2025-05-26": 146
+      "2025-05-26": 185
     }
   },
   {
@@ -54,7 +54,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-26": 78
+      "2025-05-26": 117
     }
   },
   {
@@ -63,18 +63,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/this-site-does-not-exist-example.limecommerce.work.ico",
     "slug": "staging-down-example",
     "status": "down",
-    "uptime": "1.19%",
-    "uptimeDay": "1.19%",
-    "uptimeWeek": "1.19%",
-    "uptimeMonth": "1.19%",
-    "uptimeYear": "1.19%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-26": 0
+      "2025-05-26": 39
     }
   }
 ]
