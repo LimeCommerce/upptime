@@ -1,0 +1,27 @@
+name: Send Test Email
+
+on:
+  workflow_dispatch: # Memungkinkan dijalankan secara manual dari GitHub Actions
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send test email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          secure: false
+          username: ${{ secrets.SMTP_USERNAME_HERU }}
+          password: ${{ secrets.SMTP_PASSWORD_HERU }}
+          subject: "[Upptime] Test Email from GitHub Actions"
+          to: akhi.young2@gmail.com
+          from: Heru <heru@limecommerce.com>
+          body: |
+            Ini adalah email percobaan dari workflow GitHub Actions via SMTP Gmail.
+
+            ✅ Jika kamu menerima email ini, berarti SMTP Gmail sudah dikonfigurasi dengan benar di Upptime.
+
+            Terima kasih,
+            GitHub Actions
