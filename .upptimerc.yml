@@ -11,11 +11,8 @@ sites:
     url: https://coralisland.wiki/
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
-  - name: Test Down Webhook
-    url: https://no-sites-here.limecommerce.com
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: Test Webhook Discord
-    url: https://no-sites-here-test-discord.limecommerce.com
+  - name: Mebel
+    url: https://mebel.limecommerce.com
     statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
