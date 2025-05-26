@@ -10,11 +10,29 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 258,
-    "timeDay": 258,
-    "timeWeek": 258,
-    "timeMonth": 258,
-    "timeYear": 258,
+    "time": 259,
+    "timeDay": 259,
+    "timeWeek": 259,
+    "timeMonth": 259,
+    "timeYear": 259,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Nihonmart Production",
+    "url": "https://nihonmart.id/",
+    "icon": "https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico",
+    "slug": "nihonmart-production",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1862,
+    "timeDay": 1862,
+    "timeWeek": 1862,
+    "timeMonth": 1862,
+    "timeYear": 1862,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/no-website.limecommerce.work.ico",
     "slug": "staging-no-website",
     "status": "down",
-    "uptime": "11.19%",
-    "uptimeDay": "11.19%",
-    "uptimeWeek": "11.19%",
-    "uptimeMonth": "11.19%",
-    "uptimeYear": "11.19%",
+    "uptime": "60.00%",
+    "uptimeDay": "60.00%",
+    "uptimeWeek": "60.00%",
+    "uptimeMonth": "60.00%",
+    "uptimeYear": "60.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-26": 0
+      "2025-05-26": 4
     }
   }
 ]
