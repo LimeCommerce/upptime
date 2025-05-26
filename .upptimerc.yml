@@ -12,7 +12,7 @@ sites:
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
   - name: Mebel
-    url: https://mebel.limecommerce.com
+    url: https://mebel.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
