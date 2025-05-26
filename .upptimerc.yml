@@ -10,6 +10,9 @@ sites:
   - name: Staging Kayu
     url: https://kayu.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
+  - name: Staging Fiktif
+    url: https://fiktif.limecommerce.work
+    statusPageUrl: https://uptime.limecommerce.work
 
 notifications:
   email:
