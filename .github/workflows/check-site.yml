@@ -2,8 +2,8 @@ name: Check Site Status
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # setiap 5 menit
-  workflow_dispatch: # bisa dijalankan manual
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   check-sites:
@@ -15,7 +15,6 @@ jobs:
       - name: ⚡ Run Upptime status checks
         uses: upptime/uptime-monitor@master
         with:
-          config: .upptimerc.yml
+          command: "update" # gunakan command yang sesuai: 'update', 'readme', dll
         env:
-          SMTP_USERNAME_HERU: ${{ secrets.SMTP_USERNAME_HERU }}
-          SMTP_PASSWORD_HERU: ${{ secrets.SMTP_PASSWORD_HERU }}
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
