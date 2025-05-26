@@ -10,6 +10,18 @@ sites:
     url: https://mebel.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
+notifications:
+  email:
+    to: akhi.young2@gmail.com
+    from: heru@limecommerce.com
+    smtp:
+      host: smtp.gmail.com
+      port: 587
+      secure: false
+      auth:
+        user: heru@limecommerce.com
+        pass: zwmh wwyc xfwa kprz
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
