@@ -17,4 +17,4 @@ jobs:
         with:
           command: "update" # gunakan command yang sesuai: 'update', 'readme', dll
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
