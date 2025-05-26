@@ -7,6 +7,12 @@ sites:
     url: https://limecommerce.com
     icon: https://www.limecommerce.com/favicon.svg
     statusPageUrl: https://uptime.limecommerce.work
+
+  - name: Nihonmart Production
+    url: https://nihonmart.id/
+    icon: https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico
+    statusPageUrl: https://uptime.limecommerce.work
+
   - name: Staging No Website
     url: https://no-website.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
@@ -29,7 +35,7 @@ status-website:
   cname: uptime.limecommerce.work
 
   # light, dark, night or ocean.
-  theme: night
+  theme: light
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
