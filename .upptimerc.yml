@@ -6,16 +6,11 @@ sites:
   - name: LimeCommerce Production
     url: https://limecommerce.com
     icon: https://www.limecommerce.com/favicon.svg
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: Staging Mebel
-    url: https://mebel.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: Staging Down
-    url: https://this-site-does-not-exist.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: Staging Down Example
-    url: https://this-site-does-not-exist-example.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
+  - name: Staging Kayu
+    url: https://kayu.limecommerce.work
+
+assignees:
+  - herulime
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -23,12 +18,12 @@ status-website:
   cname: uptime.limecommerce.work
 
   # light, dark, night or ocean.
-  theme: dark
+  theme: ocean
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: Notification Test - This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
