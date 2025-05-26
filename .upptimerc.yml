@@ -12,11 +12,6 @@ sites:
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
 
-#  - name: Nihonmart Production
-#    url: https://nihonmart.id/
-#    icon: https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico
-#    statusPageUrl: https://uptime.limecommerce.work
-
 notifications:
   email:
     to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
@@ -34,8 +29,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.limecommerce.work
   faviconSvg: https://www.limecommerce.com/favicon.svg
-  # light, dark, night or ocean.
-  theme: light
+
   # baseUrl: /your-repo-name
   logoUrl: https://limecommerce.oss-ap-southeast-5.aliyuncs.com/wp-content/2022/04/logo-color.svg
   name: Uptime
