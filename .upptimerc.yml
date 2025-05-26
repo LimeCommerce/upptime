@@ -32,18 +32,18 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.limecommerce.work
-
+  faviconSvg: https://www.limecommerce.com/favicon.svg
   # light, dark, night or ocean.
   theme: light
   # baseUrl: /your-repo-name
   logoUrl: https://limecommerce.oss-ap-southeast-5.aliyuncs.com/wp-content/2022/04/logo-color.svg
-  name: Upptime
-  introTitle: "**Upptime LimeCommerce**"
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Service Status
+  introTitle: "Welcome to the official **LimeCommerce** status page."
+  introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
   navbar:
-    - title: Status
+    - title: LimeCommerce Service Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+#    - title: GitHub
+#      href: https://github.com/$OWNER/$REPO
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
