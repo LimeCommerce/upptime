@@ -49,7 +49,6 @@ status-website:
       document.querySelectorAll("a.logo").forEach((a) => {
         if (a.hasAttribute("href")) {
           a.removeAttribute("href");
-          console.log("href removed");
         }
       });
     }
