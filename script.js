@@ -18,5 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>Unauthorized</h1>";
   } else {
     document.body.style.display = "block";
+    document.querySelectorAll("a.logo").forEach((a) => {
+      a.removeAttribute("href");
+    });
   }
 });
