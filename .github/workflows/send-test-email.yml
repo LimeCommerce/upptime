@@ -1,25 +1,24 @@
 name: Send Custom Email Notification
 
 on:
-  workflow_dispatch: # Bisa juga pakai schedule, atau trigger dari issue
+  workflow_dispatch:
 
 jobs:
   notify:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Send Email
-        uses: hilarion5/send-mail@v1
-        with:
-          smtp-server: smtp.gmail.com
-          smtp-port: 465
-          smtp-secure: true
-          from-email: test@limecommerce.com
-          to-email: heru@limecommerce.com
-          username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
-          password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: Test Email
-          body: This is a test email sent from GitHub Actions.
-          html: |
+      - name: Send HTML Email
+        uses: docker://ghcr.io/byu-oit/github-action-send-mail:latest
+        env:
+          SMTP_SERVER: smtp.gmail.com
+          SMTP_PORT: 465
+          SMTP_SECURE: true
+          SMTP_USERNAME: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
+          FROM_EMAIL: test@limecommerce.com
+          TO_EMAIL: heru@limecommerce.com
+          SUBJECT: Test Email with HTML
+          CONTENT_TYPE: text/html
+          BODY: |
             <h1>This is a test email</h1>
-            <p>Test Paragraph</p>
+            <p>This is an HTML-formatted email from GitHub Actions</p>
