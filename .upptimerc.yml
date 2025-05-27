@@ -3,18 +3,15 @@ owner: LimeCommerce # Your GitHub organization or username, where this repositor
 repo: upptime # The name of this repository
 
 sites:
-  - name: LimeCommerce Production
+  - name: "#27654 LimeCommerce Production"
     url: https://limecommerce.com
     icon: https://www.limecommerce.com/favicon.svg
     statusPageUrl: https://uptime.limecommerce.work
-  - name: Coral Island
+  - name: "#86723 Coral Island"
     url: https://coralisland.wiki/
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
-  - name: Google
-    url: https://www.google.com/
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: Mebel
+  - name: "#30987 Mebel"
     url: https://mebel.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
@@ -43,7 +40,7 @@ status-website:
   name: Uptime
   introTitle: "Welcome to the official **LimeCommerce** status page"
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
-  css: "body { display: none !important; }"
+
   js: |
     document.addEventListener("DOMContentLoaded", function () {
       const path = window.location.pathname;
