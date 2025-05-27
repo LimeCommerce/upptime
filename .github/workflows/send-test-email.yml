@@ -8,26 +8,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Read email body from file
-        id: read_email
-        run: |
-          echo "BODY<<EOF" >> $GITHUB_ENV
-          cat .github/email-templates.html >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
-      - name: Send email
-        uses: dawidd6/action-send-mail@v3
+      - name: Send Email
+        uses: hilarion5/send-mail@v1
         with:
-          server_address: smtp.gmail.com
-          server_port: 587
-          secure: false
+          smtp-server: smtp.gmail.com
+          smtp-port: 465
+          smtp-secure: true
+          from-email: test@limecommerce.com
+          to-email: heru@limecommerce.com
           username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
           password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: "[Upptime] Custom Alert for Bagasiku"
-          to: heru@limecommerce.com
-          from: Lime <test@limecommerce.com>
-          content_type: text/html
-          body: ${{ env.BODY }}
+          subject: Test Email
+          body: This is a test email sent from GitHub Actions.
+          html: |
+            <h1>This is a test email</h1>
+            <p>Test Paragraph</p>
