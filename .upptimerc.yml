@@ -45,7 +45,24 @@ status-website:
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
 
   js: |
+    function removeHref() {
+      document.querySelectorAll("a.logo").forEach((a) => {
+        if (a.hasAttribute("href")) {
+          a.removeAttribute("href");
+          console.log("href removed");
+        }
+      });
+    }
+
     document.addEventListener("DOMContentLoaded", function () {
+      removeHref();
+
+      const observer = new MutationObserver(() => {
+        removeHref();
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+
       const path = window.location.pathname;
       if (path === "/history") {
         document.body.innerHTML =
