@@ -4,29 +4,22 @@ on:
   workflow_dispatch: # Bisa dijalankan manual dari GitHub UI
 
 jobs:
-  send-email:
+  send_email:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Send HTML Email
-        uses: mattnotmitt/send-email@v1
+      - name: Send email with HTML content
+        uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
           server_port: 465
+          secure: true
           username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
           password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: "⚠️ Uptime Alert: Website Down"
+          subject: "⚠️ Uptime Alert"
           to: heru@limecommerce.com
-          from: test@limecommerce.com
+          from: Lime Uptime <test@limecommerce.com>
           content_type: text/html
           body: |
-            <html>
-              <body>
-                <h1 style="color: red;">🚨 Website Down Alert</h1>
-                <p>Dear team,</p>
-                <p><strong>https://limecommerce.com</strong> is currently <span style="color: red;">down</span>.</p>
-                <p>Please investigate as soon as possible.</p>
-                <hr />
-                <small>This is an automated email from GitHub Actions - Upptime</small>
-              </body>
-            </html>
+            <h1>🚨 Website Down</h1>
+            <p><strong>https://limecommerce.com</strong> is currently <span style="color:red;">down</span>.</p>
+            <p>Please check the issue immediately.</p
