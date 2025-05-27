@@ -47,6 +47,17 @@ status-website:
   js: |
     window.onload = function () {
       console.log("window.onload triggered");
+      // Cek jika URL mengandung '/history', lewati login
+      if (window.location.pathname.includes("/history")) {
+        console.log("Lewati login karena path mengandung /history");
+        return;
+      }
+
+      // Sembunyikan elemen #sapper saat awal
+      const sapperDiv = document.getElementById("sapper");
+      if (sapperDiv) {
+        sapperDiv.style.display = "none";
+      }
 
       const username = prompt("Enter username:");
       const password = prompt("Enter password:");
@@ -65,15 +76,12 @@ status-website:
       } else {
         console.log("Access granted");
         alert("Welcome, " + username + "!");
-      }
 
-      const headings = document.querySelectorAll("h2");
-      headings.forEach((h2) => {
-        if (h2.textContent.trim() === "Live Status") {
-          h2.textContent = "Live Status Ubah";
-          console.log("Judul diubah menjadi:", h2.textContent);
+        // Tampilkan kembali #sapper setelah login sukses
+        if (sapperDiv) {
+          sapperDiv.style.display = "block";
         }
-      });
+      }
     };
 
 # navbar:
