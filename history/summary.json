@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 224,
-    "timeDay": 224,
-    "timeWeek": 224,
-    "timeMonth": 224,
-    "timeYear": 224,
+    "time": 186,
+    "timeDay": 186,
+    "timeWeek": 186,
+    "timeMonth": 186,
+    "timeYear": 186,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1690,
-    "timeDay": 1690,
-    "timeWeek": 1690,
-    "timeMonth": 1690,
-    "timeYear": 1690,
+    "time": 1544,
+    "timeDay": 1544,
+    "timeWeek": 1544,
+    "timeMonth": 1544,
+    "timeYear": 1544,
     "dailyMinutesDown": {}
   },
   {
@@ -41,18 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mebel.limecommerce.work.ico",
     "slug": "30987-mebel",
     "status": "down",
-    "uptime": "13.54%",
-    "uptimeDay": "13.54%",
-    "uptimeWeek": "13.54%",
-    "uptimeMonth": "13.54%",
-    "uptimeYear": "13.54%",
-    "time": 739,
-    "timeDay": 739,
-    "timeWeek": 739,
-    "timeMonth": 739,
-    "timeYear": 739,
+    "uptime": "0.31%",
+    "uptimeDay": "0.31%",
+    "uptimeWeek": "0.31%",
+    "uptimeMonth": "0.31%",
+    "uptimeYear": "0.31%",
+    "time": 717,
+    "timeDay": 717,
+    "timeWeek": 717,
+    "timeMonth": 717,
+    "timeYear": 717,
     "dailyMinutesDown": {
-      "2025-05-27": 0
+      "2025-05-27": 11
     }
   }
 ]
