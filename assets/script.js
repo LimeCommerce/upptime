@@ -20,6 +20,17 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.display = "block";
     document.querySelectorAll("a.logo").forEach((a) => {
       a.removeAttribute("href");
+      console.log("remove a");
     });
   }
+
+  document.querySelectorAll("a.logo").forEach((a) => {
+    a.removeAttribute("href");
+    console.log("remove b");
+  });
+});
+
+document.querySelectorAll("a.logo").forEach((a) => {
+  a.removeAttribute("href");
+  console.log("remove c");
 });
