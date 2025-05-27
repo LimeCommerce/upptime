@@ -43,7 +43,7 @@ status-website:
   name: Uptime
   introTitle: "Welcome to the official **LimeCommerce** status page"
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
-
+  css: "body { display: none !important; }"
   js: |
     document.addEventListener("DOMContentLoaded", function () {
       const path = window.location.pathname;
@@ -59,7 +59,7 @@ status-website:
       const username = prompt("Enter username:");
       const password = prompt("Enter password:");
       const encodedPassword = btoa(password);
-      if (username !== "admin" || encodedPassword !== "MTIzNDU2") {
+      if (username !== "lime" || encodedPassword !== "bGltZTEyMw==") {
         document.body.style.display = "block";
         document.body.innerHTML =
           "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>Unauthorized</h1>";
