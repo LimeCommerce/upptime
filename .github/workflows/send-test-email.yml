@@ -22,4 +22,4 @@ jobs:
           body: |
             <h1>🚨 Website Down</h1>
             <p><strong>https://limecommerce.com</strong> is currently <span style="color:red;">down</span>.</p>
-            <p>Please check the issue immediately.</p
+            <p>Please check the issue immediately.</p>
