@@ -12,16 +12,6 @@ jobs:
       - name: Send email with HTML content
         uses: dawidd6/action-send-mail@v5
         with:
-          # Specify connection via URL (replaces server_address, server_port, secure,
-          # username and password)
-          #
-          # Format:
-          #
-          #  * smtp://user:password@server:port
-          #  * smtp://${{secrets.NOTIFICATION_EMAIL_SMTP_USERNAME}}:${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}@smtp.gmail.com:465
-          #  * smtp+starttls://user:password@server:port
-          connection_url: ${{secrets.MAIL_CONNECTION}}
-          # Required mail server address if not connection_url:
           server_address: smtp.gmail.com
           # Server port, default 25:
           server_port: 465
