@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Status Email</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333333;
+      }
+      p {
+        color: #555555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Status Notifikasi</h1>
+      <p>Halo,</p>
+      <p>
+        Build atau proses pada repository
+        <strong>${{ github.repository }}</strong> telah berhasil diselesaikan.
+      </p>
+      <p><strong>Status:</strong> Berhasil ✅</p>
+      <p>Terima kasih,<br />GitHub Actions</p>
+    </div>
+  </body>
+</html>
