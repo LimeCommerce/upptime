@@ -1,24 +1,31 @@
 name: Send Custom Email Notification
-
 on:
   workflow_dispatch:
 
 jobs:
-  notify:
+  send-email:
     runs-on: ubuntu-latest
+
     steps:
       - name: Send HTML Email
-        uses: docker://ghcr.io/byu-oit/github-action-send-mail:latest
-        env:
-          SMTP_SERVER: smtp.gmail.com
-          SMTP_PORT: 465
-          SMTP_SECURE: true
-          SMTP_USERNAME: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          FROM_EMAIL: test@limecommerce.com
-          TO_EMAIL: heru@limecommerce.com
-          SUBJECT: Test Email with HTML
-          CONTENT_TYPE: text/html
-          BODY: |
-            <h1>This is a test email</h1>
-            <p>This is an HTML-formatted email from GitHub Actions</p>
+        uses: mattnotmitt/send-email@v1
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
+          password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
+          subject: ⚠️ Uptime Alert: Website Down
+          to: heru@limecommerce.com
+          from: test@limecommerce.com
+          content_type: text/html
+          body: |
+            <html>
+              <body>
+                <h1 style="color: red;">🚨 Website Down Alert</h1>
+                <p>Dear team,</p>
+                <p><strong>https://limecommerce.com</strong> is currently <span style="color: red;">down</span>.</p>
+                <p>Please investigate as soon as possible.</p>
+                <hr />
+                <small>This is an automated email from GitHub Actions - Upptime</small>
+              </body>
+            </html>
