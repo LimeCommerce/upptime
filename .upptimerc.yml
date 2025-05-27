@@ -68,36 +68,13 @@ status-website:
       }
     };
 
-    const articles = document.querySelectorAll("article");
-    let visible = false;
-
-    function slideDown(el) {
-      console.log("slideDown called on:", el);
-      el.style.display = "block";
-      el.style.height = "auto";
-      const height = el.scrollHeight + "px";
-      el.style.height = "0";
-      requestAnimationFrame(() => {
-        el.style.height = height;
-      });
-    }
-
-    function slideUp(el) {
-      console.log("slideUp called on:", el);
-      el.style.height = "0";
-    }
-
-    setInterval(() => {
-      console.log("Toggling articles visibility:", visible ? "hide" : "show");
-      articles.forEach((article) => {
-        if (visible) {
-          slideUp(article);
-        } else {
-          slideDown(article);
-        }
-      });
-      visible = !visible;
-    }, 3000);
+    const headings = document.querySelectorAll("h2");
+    headings.forEach((h2) => {
+      if (h2.textContent.trim() === "Live Status") {
+        h2.textContent = "Live Status Ubah";
+        console.log("Judul diubah menjadi:", h2.textContent);
+      }
+    });
 
 # navbar:
 #    - title: Status
