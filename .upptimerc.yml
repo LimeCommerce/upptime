@@ -56,11 +56,9 @@ status-website:
 
     document.addEventListener("DOMContentLoaded", function () {
       removeHref();
-
       const observer = new MutationObserver(() => {
         removeHref();
       });
-
       observer.observe(document.body, { childList: true, subtree: true });
 
       const path = window.location.pathname;
@@ -82,21 +80,7 @@ status-website:
           "<h1 style='color: red; text-align: center; color:#002626; margin-top: 20px'>Unauthorized</h1>";
       } else {
         document.body.style.display = "block";
-        document.querySelectorAll("a.logo").forEach((a) => {
-          a.removeAttribute("href");
-          console.log("remove a");
-        });
       }
-
-      document.querySelectorAll("a.logo").forEach((a) => {
-        a.removeAttribute("href");
-        console.log("remove b");
-      });
-    });
-
-    document.querySelectorAll("a.logo").forEach((a) => {
-      a.removeAttribute("href");
-      console.log("remove c");
     });
 
 # navbar:
