@@ -20,7 +20,7 @@ jobs:
           #  * smtp://user:password@server:port
           #  * smtp://${{secrets.NOTIFICATION_EMAIL_SMTP_USERNAME}}:${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}@smtp.gmail.com:465
           #  * smtp+starttls://user:password@server:port
-          connection_url: smtp://${{secrets.NOTIFICATION_EMAIL_SMTP_USERNAME}}:${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}@smtp.gmail.com:465
+          connection_url: ${{secrets.MAIL_CONNECTION}}
           # Required mail server address if not connection_url:
           server_address: smtp.gmail.com
           # Server port, default 25:
