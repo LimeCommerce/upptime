@@ -1,6 +1,7 @@
 name: Send Custom Email Notification
+
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Bisa dijalankan manual dari GitHub UI
 
 jobs:
   send-email:
