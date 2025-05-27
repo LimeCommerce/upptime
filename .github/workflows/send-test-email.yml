@@ -1,13 +1,24 @@
-name: Send Test Email
+name: Send Custom Email Notification
 
 on:
-  workflow_dispatch: # Memungkinkan dijalankan secara manual dari GitHub Actions
+  workflow_dispatch: # Bisa juga pakai schedule, atau trigger dari issue
 
 jobs:
-  send-email:
+  notify:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Send test email
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read email body from file
+        id: read_email
+        run: |
+          echo "BODY<<EOF" >> $GITHUB_ENV
+          cat .github/email-template.html >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Send email
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -15,9 +26,8 @@ jobs:
           secure: false
           username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
           password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: "[Upptime] Test Email from GitHub Actions"
+          subject: "[Upptime] Custom Alert for Bagasiku"
           to: heru@limecommerce.com
           from: Lime <test@limecommerce.com>
           content_type: text/html
-          body: >
-            <html><body><h1 style="color:red;">Bagasiku is down</h1><p>Hello Soma Putera, your monitor is down.</p></body></html>
+          body: ${{ env.BODY }}
