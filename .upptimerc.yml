@@ -44,6 +44,7 @@ status-website:
   introTitle: "Welcome to the official **LimeCommerce** status page"
   introMessage: Here, you can monitor the real-time availability of our services and infrastructure. We are committed to maintaining high uptime and transparency for our clients and partners. If there are any interruptions in service, they will be reported and tracked here.
 
+  js: "console.log('Hello Lime')";
   scripts:
     - src: https://raw.githubusercontent.com/LimeCommerce/upptime/master/assets/script.js
       async: true
