@@ -8,18 +8,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send email with HTML content
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v5
         with:
+          # Specify connection via URL (replaces server_address, server_port, secure,
+          # username and password)
+          #
+          # Format:
+          #
+          #  * smtp://user:password@server:port
+          #  * smtp://${{secrets.NOTIFICATION_EMAIL_SMTP_USERNAME}}:${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}@smtp.gmail.com:465
+          #  * smtp+starttls://user:password@server:port
+          connection_url: smtp://${{secrets.NOTIFICATION_EMAIL_SMTP_USERNAME}}:${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}@smtp.gmail.com:465
+          # Required mail server address if not connection_url:
           server_address: smtp.gmail.com
+          # Server port, default 25:
           server_port: 465
+          # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
-          username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
-          password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: "⚠️ Uptime Alert"
+          # Optional (recommended) mail server username:
+          username: ${{secrets.NOTIFICATION_EMAIL_SMTP_USERNAME}}
+          # Optional (recommended) mail server password:
+          password: ${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}
+          # Required mail subject:
+          subject: Github Actions job result
+          # Required recipients' addresses:
           to: heru@limecommerce.com
+          # Required sender full name (address can be skipped):
           from: Lime Uptime <test@limecommerce.com>
-          content_type: text/html
-          body: |
-            <h1>🚨 Website Down</h1>
-            <p><strong>https://limecommerce.com</strong> is currently <span style="color:red;">down</span>.</p>
-            <p>Please check the issue immediately.</p>
+          # Optional plain body:
+          body: Build job of ${{github.repository}} completed successfully!
+          # Optional HTML body read from file:
+          html_body: file://README.html
