@@ -15,7 +15,7 @@ jobs:
         id: read_email
         run: |
           echo "BODY<<EOF" >> $GITHUB_ENV
-          cat .github/email-template.html >> $GITHUB_ENV
+          cat .github/email-templates.html >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: Send email
