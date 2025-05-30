@@ -1,15 +1,19 @@
 name: Send Custom Email Notification
 
+# on:
+#   workflow_run:
+#     workflows: ["Setup CI"]
+#     types:
+#       - completed
+
 on:
-  workflow_run:
-    workflows: ["Setup CI"]
-    types:
-      - completed
+  repository_dispatch:
+    types: [upptime-webhook]
 
 jobs:
   send_email:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success' }}
+    # if: ${{ github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - uses: actions/checkout@v3
@@ -27,7 +31,7 @@ jobs:
           # Optional (recommended) mail server password:
           password: ${{secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD}}
           # Required mail subject:
-          subject: Github Actions job result
+          subject: LimeUptime Status Update
           # Required recipients' addresses:
           to: heru@limecommerce.com
           # Required sender full name (address can be skipped):
@@ -40,7 +44,7 @@ jobs:
             <html>
               <head>
                 <meta charset="UTF-8" />
-                <title>Status Email</title>
+                <title>Status</title>
                 <style>
                   body {
                     font-family: Arial, sans-serif;
@@ -100,6 +104,7 @@ jobs:
                       </div>
                       <h1 style="font-size: 1.5rem; font-weight: bold">
                         #62343 Limecommerce.com is <span style="color: #ef4444">down</span>
+                        ${{ github.event.client_payload.data.message }}
                       </h1>
                     </div>
 
