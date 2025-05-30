@@ -2,7 +2,7 @@ name: Send Custom Email Notification
 
 on:
   workflow_run:
-    workflows: ["Upptime CI"]
+    workflows: ["Setup CI"]
     types:
       - completed
 
