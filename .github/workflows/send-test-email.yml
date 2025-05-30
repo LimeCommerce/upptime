@@ -1,9 +1,6 @@
 name: Send Custom Email Notification
 
 on:
-  workflow_dispatch: # Bisa dijalankan manual dari GitHub UI
-
-on:
   workflow_run:
     workflows: ["Upptime CI"]
     types:
