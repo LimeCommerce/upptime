@@ -20,18 +20,9 @@ sites:
   - name: "#12345 Test Down"
     url: https://test-down.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
-
-# notifications:
-#   email:
-#     to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
-#     from: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
-#     smtp:
-#       host: ${{ secrets.NOTIFICATION_EMAIL_SMTP_HOST }}
-#       port: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PORT }}
-#       secure: false
-#       auth:
-#         user: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
-#         pass: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
+  - name: "#12333 Test Down 2"
+    url: https://test-down-again.limecommerce.work
+    statusPageUrl: https://uptime.limecommerce.work
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
