@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 242,
-    "timeDay": 302,
-    "timeWeek": 242,
-    "timeMonth": 242,
-    "timeYear": 242,
+    "time": 237,
+    "timeDay": 237,
+    "timeWeek": 237,
+    "timeMonth": 237,
+    "timeYear": 237,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1698,
-    "timeDay": 1792,
-    "timeWeek": 1698,
-    "timeMonth": 1698,
-    "timeYear": 1698,
+    "time": 1731,
+    "timeDay": 1895,
+    "timeWeek": 1731,
+    "timeMonth": 1731,
+    "timeYear": 1731,
     "dailyMinutesDown": {}
   },
   {
@@ -41,16 +41,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/newsite.limecommerce.work.ico",
     "slug": "46721-new-site",
     "status": "up",
-    "uptime": "98.84%",
+    "uptime": "99.13%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.84%",
-    "uptimeMonth": "98.84%",
-    "uptimeYear": "98.84%",
-    "time": 184,
-    "timeDay": 108,
-    "timeWeek": 184,
-    "timeMonth": 184,
-    "timeYear": 184,
+    "uptimeWeek": "99.13%",
+    "uptimeMonth": "99.13%",
+    "uptimeYear": "99.13%",
+    "time": 167,
+    "timeDay": 106,
+    "timeWeek": 167,
+    "timeMonth": 167,
+    "timeYear": 167,
     "dailyMinutesDown": {
       "2025-05-27": 34
     }
@@ -61,16 +61,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/mebel.limecommerce.work.ico",
     "slug": "30987-mebel",
     "status": "down",
-    "uptime": "99.48%",
+    "uptime": "99.61%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.48%",
-    "uptimeMonth": "99.48%",
-    "uptimeYear": "99.48%",
-    "time": 868,
-    "timeDay": 820,
-    "timeWeek": 868,
-    "timeMonth": 868,
-    "timeYear": 868,
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.61%",
+    "uptimeYear": "99.61%",
+    "time": 913,
+    "timeDay": 1025,
+    "timeWeek": 913,
+    "timeMonth": 913,
+    "timeYear": 913,
     "dailyMinutesDown": {
       "2025-05-27": 15
     }
@@ -92,7 +92,28 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-29": 0
+      "2025-05-30": 43,
+      "2025-05-29": 937
+    }
+  },
+  {
+    "name": "#12333 Test Down 2",
+    "url": "https://test-down-again.limecommerce.work",
+    "icon": "https://icons.duckduckgo.com/ip3/test-down-again.limecommerce.work.ico",
+    "slug": "12333-test-down-2",
+    "status": "down",
+    "uptime": "5.52%",
+    "uptimeDay": "5.52%",
+    "uptimeWeek": "5.52%",
+    "uptimeMonth": "5.52%",
+    "uptimeYear": "5.52%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-05-30": 0
     }
   }
 ]
