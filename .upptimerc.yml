@@ -17,8 +17,8 @@ sites:
   - name: "#30987 Mebel"
     url: https://mebel.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
-  - name: "#12345 Test Down 8"
-    url: https://test-down-8.limecommerce.work
+  - name: "#12345 Test Down 9"
+    url: https://test-down-9.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
 status-website:

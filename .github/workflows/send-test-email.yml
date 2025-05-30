@@ -1,19 +1,17 @@
 name: Send Custom Email Notification
 
-# on:
-#   workflow_run:
-#     workflows: ["Setup CI"]
-#     types:
-#       - completed
-
 on:
-  repository_dispatch:
-    types: [upptime-webhook]
+  workflow_run:
+    workflows:
+      - "Setup CI"
+      - "Uptime CI"
+    types:
+      - completed
 
 jobs:
   send_email:
     runs-on: ubuntu-latest
-    # if: ${{ github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - uses: actions/checkout@v3
