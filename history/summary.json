@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 267,
-    "timeDay": 297,
-    "timeWeek": 267,
-    "timeMonth": 267,
-    "timeYear": 267,
+    "time": 269,
+    "timeDay": 338,
+    "timeWeek": 269,
+    "timeMonth": 269,
+    "timeYear": 269,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1746,
-    "timeDay": 1810,
-    "timeWeek": 1746,
-    "timeMonth": 1746,
-    "timeYear": 1746,
+    "time": 1735,
+    "timeDay": 1715,
+    "timeWeek": 1735,
+    "timeMonth": 1735,
+    "timeYear": 1735,
     "dailyMinutesDown": {}
   },
   {
@@ -41,16 +41,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/newsite.limecommerce.work.ico",
     "slug": "46721-new-site",
     "status": "up",
-    "uptime": "99.18%",
+    "uptime": "99.37%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.18%",
-    "uptimeMonth": "99.18%",
-    "uptimeYear": "99.18%",
-    "time": 181,
-    "timeDay": 174,
-    "timeWeek": 181,
-    "timeMonth": 181,
-    "timeYear": 181,
+    "uptimeWeek": "99.37%",
+    "uptimeMonth": "99.37%",
+    "uptimeYear": "99.37%",
+    "time": 178,
+    "timeDay": 206,
+    "timeWeek": 178,
+    "timeMonth": 178,
+    "timeYear": 178,
     "dailyMinutesDown": {
       "2025-05-27": 34
     }
@@ -61,16 +61,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/mebel.limecommerce.work.ico",
     "slug": "30987-mebel",
     "status": "down",
-    "uptime": "99.63%",
+    "uptime": "99.72%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.63%",
-    "uptimeMonth": "99.63%",
-    "uptimeYear": "99.63%",
-    "time": 882,
-    "timeDay": 885,
-    "timeWeek": 882,
-    "timeMonth": 882,
-    "timeYear": 882,
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.72%",
+    "time": 881,
+    "timeDay": 824,
+    "timeWeek": 881,
+    "timeMonth": 881,
+    "timeYear": 881,
     "dailyMinutesDown": {
       "2025-05-27": 15
     }
@@ -92,7 +92,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-30": 0
+      "2025-05-31": 226,
+      "2025-05-30": 2310
     }
   }
 ]
