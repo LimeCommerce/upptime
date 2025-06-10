@@ -31,7 +31,7 @@ jobs:
           # Required mail subject:
           subject: LimeUptime Status Update
           # Required recipients' addresses:
-          to: heru@limecommerce.com
+          to: soma@limecommerce.com
           # Required sender full name (address can be skipped):
           from: Lime Uptime <test@limecommerce.com>
           # Optional plain body:
@@ -101,7 +101,7 @@ jobs:
                         >
                       </div>
                       <h1 style="font-size: 1.5rem; font-weight: bold">
-                        #62343 Limecommerce.com is <span style="color: #ef4444">down</span>
+                        #Some of your service is <span style="color: #ef4444">down</span>
                         ${{ github.event.client_payload.data.message }}
                       </h1>
                     </div>
@@ -133,7 +133,7 @@ jobs:
                           >
                             Site name
                           </p>
-                          <p style="color: #111827; font-weight: 500">Bagasiku</p>
+                          <p style="color: #111827; font-weight: 500">-</p>
                         </div>
 
                         <div style="margin-bottom: 1rem">
@@ -154,7 +154,7 @@ jobs:
                               word-break: break-all;
                             "
                           >
-                            https://www.bagasiku.com/
+                            -
                           </p>
                         </div>
 
