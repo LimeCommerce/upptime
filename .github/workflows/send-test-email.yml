@@ -31,7 +31,7 @@ jobs:
           # Required mail subject:
           subject: LimeUptime Status Update
           # Required recipients' addresses:
-          to: soma@limecommerce.com
+          to: heru@limecommerce.com
           # Required sender full name (address can be skipped):
           from: Lime Uptime <test@limecommerce.com>
           # Optional plain body:

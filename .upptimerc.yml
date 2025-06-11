@@ -14,12 +14,6 @@ sites:
   - name: "#46721 New Site"
     url: https://newsite.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
-  - name: "#30987 Mebel"
-    url: https://mebel.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
-  - name: "#12345 Test Down 9"
-    url: https://test-down-9.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
