@@ -39,8 +39,8 @@ sites:
     url: https://yeva.asia
     icon: https://yeva.asia/cdn/shop/files/Logo_Full.png
     statusPageUrl: https://uptime.limecommerce.work
-  - name: "Test Down Site"
-    url: https://testdownsite.limecommerce.work
+  - name: "Test Down Site3"
+    url: https://testdownsite3.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
 status-website:
