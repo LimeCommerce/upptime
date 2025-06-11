@@ -92,10 +92,28 @@ status-website:
       }
     });
 
+    function hidePastIncidentsSection() {
+      document.querySelectorAll("section").forEach((section) => {
+        const h2 = section.querySelector("h2");
+        if (h2 && h2.textContent.trim() === "Past Incidents") {
+          section.style.display = "none";
+        }
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      hidePastIncidentsSection();
+
+      // Jika elemen muncul setelah render (SPA behavior), kita observe
+      const observer = new MutationObserver(hidePastIncidentsSection);
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+
 # navbar:
 #    - title: Status
 #      href: /
 #    - title: GitHub
 #      href: https://github.com/$OWNER/$REPO
+
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

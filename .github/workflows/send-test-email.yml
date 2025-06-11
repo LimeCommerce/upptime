@@ -1,12 +1,7 @@
 name: Send Custom Email Notification
 
 on:
-  workflow_run:
-    workflows:
-      - "Setup CI"
-      - "Uptime CI"
-    types:
-      - completed
+  workflow_dispatch:
 
 jobs:
   send_email:
