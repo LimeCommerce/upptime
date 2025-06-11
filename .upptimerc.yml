@@ -11,10 +11,6 @@ sites:
     url: https://coralisland.wiki/
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
-  - name: "#46721 New Site"
-    url: https://newsite.limecommerce.work
-    icon: https://newsite.limecommerce.work/favicon.svg
-    statusPageUrl: https://uptime.limecommerce.work
   - name: "#38492 Yamada BEST"
     url: https://yamadabestid.com
     icon: https://yamadabestid.com/media/favicon/stores/1/favicon-32x32.png
