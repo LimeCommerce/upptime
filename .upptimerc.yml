@@ -39,9 +39,6 @@ sites:
     url: https://yeva.asia
     icon: https://yeva.asia/cdn/shop/files/Logo_Full.png
     statusPageUrl: https://uptime.limecommerce.work
-  - name: "Test Down Site5"
-    url: https://testdownsite5.limecommerce.work
-    statusPageUrl: https://uptime.limecommerce.work
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
