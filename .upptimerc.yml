@@ -103,8 +103,6 @@ status-website:
 
     document.addEventListener("DOMContentLoaded", () => {
       hidePastIncidentsSection();
-
-      // Jika elemen muncul setelah render (SPA behavior), kita observe
       const observer = new MutationObserver(hidePastIncidentsSection);
       observer.observe(document.body, { childList: true, subtree: true });
     });
