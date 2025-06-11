@@ -13,6 +13,31 @@ sites:
     statusPageUrl: https://uptime.limecommerce.work
   - name: "#46721 New Site"
     url: https://newsite.limecommerce.work
+    icon: https://newsite.limecommerce.work/favicon.svg
+    statusPageUrl: https://uptime.limecommerce.work
+  - name: "#38492 Yamada BEST"
+    url: https://yamadabestid.com
+    icon: https://yamadabestid.com/media/favicon/stores/1/favicon-32x32.png
+    statusPageUrl: https://uptime.limecommerce.work
+  - name: "#71530 Jade"
+    url: https://jade-jakarta.com
+    icon: https://jade-jakarta.com/pub/media/favicon/stores/1/favicon-jade.png
+    statusPageUrl: https://uptime.limecommerce.work
+  - name: "#26981 Nihon"
+    url: https://nihonmart.id
+    icon: https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico
+    statusPageUrl: https://uptime.limecommerce.work
+  - name: "#54027 Rodalink"
+    url: https://www.rodalink.com
+    icon: https://media.rodalink.com/favicon/websites/1/favicon.png
+    statusPageUrl: https://uptime.limecommerce.work
+  - name: "#19836 CNF"
+    url: https://cnfstore.com
+    icon: https://cnfstore.com/pub/media/favicon/stores/1/favicon.png
+    statusPageUrl: https://uptime.limecommerce.work
+  - name: "#67394 Yeva"
+    url: https://yeva.asia
+    icon: https://yeva.asia/cdn/shop/files/Logo_Full.png
     statusPageUrl: https://uptime.limecommerce.work
 
 status-website:
