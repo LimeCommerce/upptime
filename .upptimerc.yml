@@ -39,8 +39,8 @@ sites:
     url: https://yeva.asia
     icon: https://yeva.asia/cdn/shop/files/Logo_Full.png
     statusPageUrl: https://uptime.limecommerce.work
-  - name: "Test Down Site3"
-    url: https://testdownsite3.limecommerce.work
+  - name: "Test Down Site4"
+    url: https://testdownsite4.limecommerce.work
     statusPageUrl: https://uptime.limecommerce.work
 
 status-website:
@@ -110,6 +110,13 @@ status-website:
       // Jika elemen muncul setelah render (SPA behavior), kita observe
       const observer = new MutationObserver(hidePastIncidentsSection);
       observer.observe(document.body, { childList: true, subtree: true });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const footer = document.querySelector("footer");
+      if (footer) {
+        footer.style.display = "none";
+      }
     });
 
 # navbar:
