@@ -11,6 +11,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#86723 Coral Island"
     url: https://coralisland.wiki/
@@ -20,6 +21,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#38492 Yamada BEST"
     url: https://yamadabestid.com
@@ -29,6 +31,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#71530 Jade"
     url: https://jade-jakarta.com
@@ -38,6 +41,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#26981 Nihon"
     url: https://nihonmart.id
@@ -47,6 +51,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#54027 Rodalink"
     url: https://www.rodalink.com
@@ -56,6 +61,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#19836 CNF"
     url: https://cnfstore.com
@@ -65,6 +71,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
   - name: "#67394 Yeva"
     url: https://yeva.asia
@@ -74,6 +81,7 @@ sites:
       - 200
       - 201
       - 415
+      - 403
     maxResponseTime: 30000
 
 status-website:
