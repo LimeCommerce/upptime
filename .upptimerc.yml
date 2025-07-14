@@ -7,34 +7,83 @@ sites:
     url: https://limecommerce.com
     icon: https://www.limecommerce.com/favicon.svg
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#86723 Coral Island"
     url: https://coralisland.wiki/
     icon: https://coralisland.wiki/w/favicon.ico
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#38492 Yamada BEST"
     url: https://yamadabestid.com
     icon: https://yamadabestid.com/media/favicon/stores/1/favicon-32x32.png
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#71530 Jade"
     url: https://jade-jakarta.com
     icon: https://jade-jakarta.com/pub/media/favicon/stores/1/favicon-jade.png
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#26981 Nihon"
     url: https://nihonmart.id
     icon: https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#54027 Rodalink"
     url: https://www.rodalink.com
     icon: https://media.rodalink.com/favicon/websites/1/favicon.png
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#19836 CNF"
     url: https://cnfstore.com
     icon: https://cnfstore.com/pub/media/favicon/stores/1/favicon.png
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
   - name: "#67394 Yeva"
     url: https://yeva.asia
     icon: https://yeva.asia/cdn/shop/files/Logo_Full.png
     statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
+  - name: "Rodalink Staging"
+    url: https://rodalink.limecommerce.work
+    icon: https://media.rodalink.com/favicon/websites/1/favicon.png
+    statusPageUrl: https://uptime.limecommerce.work
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 415
+    maxResponseTime: 30000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
