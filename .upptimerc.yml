@@ -83,16 +83,6 @@ sites:
       - 415
       - 403
     maxResponseTime: 30000
-  - name: "Rodalink Staging"
-    url: https://rodalink.limecommerce.work
-    icon: https://media.rodalink.com/favicon/websites/1/favicon.png
-    statusPageUrl: https://uptime.limecommerce.work
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 415
-      - 403
-    maxResponseTime: 30000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
