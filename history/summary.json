@@ -174,7 +174,7 @@
     "slug": "rodalink-staging",
     "status": "up",
     "uptime": "0.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "98.75%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
@@ -184,6 +184,7 @@
     "timeMonth": 2791,
     "timeYear": 2791,
     "dailyMinutesDown": {
+      "2025-07-18": 0,
       "2025-07-14": 11
     }
   }
