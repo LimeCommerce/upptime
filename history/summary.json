@@ -4,9 +4,9 @@
     "url": "https://limecommerce.com",
     "icon": "https://www.limecommerce.com/favicon.svg",
     "slug": "27654-lime-commerce-production",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 322,
     "timeMonth": 308,
     "timeYear": 290,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-07-18": 0
+    }
   },
   {
     "name": "#86723 Coral Island",
@@ -115,12 +117,12 @@
     "status": "up",
     "uptime": "99.79%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.34%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "99.75%",
     "uptimeYear": "99.79%",
     "time": 2676,
     "timeDay": 2368,
-    "timeWeek": 2478,
+    "timeWeek": 2475,
     "timeMonth": 2727,
     "timeYear": 2676,
     "dailyMinutesDown": {
