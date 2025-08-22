@@ -58,12 +58,12 @@
     "slug": "38492-yamada-best",
     "status": "up",
     "uptime": "99.83%",
-    "uptimeDay": "98.64%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.62%",
     "uptimeMonth": "99.77%",
     "uptimeYear": "99.83%",
     "time": 1209,
-    "timeDay": 2257,
+    "timeDay": 2662,
     "timeWeek": 2060,
     "timeMonth": 1262,
     "timeYear": 1209,
@@ -188,17 +188,19 @@
     "url": "https://yeva.asia",
     "icon": "https://yeva.asia/cdn/shop/files/Logo_Full.png",
     "slug": "67394-yeva",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 426,
-    "timeDay": 330,
-    "timeWeek": 376,
-    "timeMonth": 394,
-    "timeYear": 426,
-    "dailyMinutesDown": {}
+    "time": 424,
+    "timeDay": 292,
+    "timeWeek": 361,
+    "timeMonth": 390,
+    "timeYear": 424,
+    "dailyMinutesDown": {
+      "2025-08-22": 0
+    }
   }
 ]
