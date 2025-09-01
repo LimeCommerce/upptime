@@ -12,6 +12,7 @@ sites:
       - 201
       - 415
       - 403
+      - 0
     maxResponseTime: 30000
   - name: "#86723 Coral Island"
     url: https://coralisland.wiki/
