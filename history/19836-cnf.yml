@@ -1,7 +1,7 @@
 url: https://cnfstore.com
-status: up
-code: 403
-responseTime: 192
-lastUpdated: 2025-11-18T14:59:21.215Z
+status: down
+code: 500
+responseTime: 59
+lastUpdated: 2025-11-18T15:39:43.003Z
 startTime: 2025-06-11T02:37:20.911Z
 generator: Upptime <https://github.com/upptime/upptime>
