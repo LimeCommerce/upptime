@@ -43,10 +43,10 @@
     "url": "https://coralisland.wiki/",
     "icon": "https://coralisland.wiki/w/favicon.ico",
     "slug": "86723-coral-island",
-    "status": "up",
+    "status": "down",
     "uptime": "99.09%",
-    "uptimeDay": "99.45%",
-    "uptimeWeek": "72.32%",
+    "uptimeDay": "99.43%",
+    "uptimeWeek": "72.31%",
     "uptimeMonth": "93.47%",
     "uptimeYear": "99.09%",
     "time": 2697,
@@ -78,8 +78,7 @@
       "2026-01-04": 5,
       "2026-01-03": 10,
       "2026-01-02": 10,
-      "2026-01-01": 31,
-      "2025-12-31": 5
+      "2026-01-01": 31
     }
   },
   {
