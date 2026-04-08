@@ -43,9 +43,9 @@
     "url": "https://coralisland.wiki/",
     "icon": "https://coralisland.wiki/w/favicon.ico",
     "slug": "86723-coral-island",
-    "status": "up",
+    "status": "down",
     "uptime": "99.23%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.23%",
@@ -55,6 +55,7 @@
     "timeMonth": 204,
     "timeYear": 2616,
     "dailyMinutesDown": {
+      "2026-04-08": 0,
       "2026-02-21": 36,
       "2026-02-19": 384,
       "2026-02-18": 1440,
@@ -77,7 +78,7 @@
       "2026-01-07": 5,
       "2026-01-04": 5,
       "2026-01-03": 10,
-      "2026-01-02": 10
+      "2026-01-02": 5
     }
   },
   {
@@ -237,12 +238,12 @@
     "status": "up",
     "uptime": "99.70%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "95.01%",
+    "uptimeWeek": "97.74%",
     "uptimeMonth": "97.49%",
     "uptimeYear": "99.70%",
     "time": 4068,
     "timeDay": 249,
-    "timeWeek": 4475,
+    "timeWeek": 3395,
     "timeMonth": 5669,
     "timeYear": 4068,
     "dailyMinutesDown": {
