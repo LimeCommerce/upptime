@@ -46,12 +46,12 @@
     "status": "up",
     "uptime": "99.28%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.96%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.28%",
     "time": 2475,
     "timeDay": 338,
-    "timeWeek": 131,
+    "timeWeek": 143,
     "timeMonth": 201,
     "timeYear": 2475,
     "dailyMinutesDown": {
@@ -124,9 +124,9 @@
     "url": "https://jade-jakarta.com",
     "icon": "https://jade-jakarta.com/pub/media/favicon/stores/1/favicon-jade.png",
     "slug": "71530-jade",
-    "status": "up",
+    "status": "down",
     "uptime": "99.72%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.72%",
@@ -136,6 +136,7 @@
     "timeMonth": 115,
     "timeYear": 3642,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-09": 11,
       "2026-02-05": 3,
       "2025-12-19": 4,
@@ -158,7 +159,7 @@
       "2025-09-01": 17,
       "2025-08-31": 52,
       "2025-08-29": 207,
-      "2025-08-28": 19
+      "2025-08-28": 17
     }
   },
   {
@@ -316,14 +317,14 @@
     "slug": "67394-yeva",
     "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "99.31%",
+    "uptimeDay": "99.66%",
     "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.84%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.95%",
     "time": 451,
-    "timeDay": 313,
+    "timeDay": 411,
     "timeWeek": 377,
-    "timeMonth": 393,
+    "timeMonth": 411,
     "timeYear": 451,
     "dailyMinutesDown": {
       "2026-04-29": 10,
