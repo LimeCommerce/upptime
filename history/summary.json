@@ -14,7 +14,7 @@
     "timeDay": 159,
     "timeWeek": 262,
     "timeMonth": 271,
-    "timeYear": 333,
+    "timeYear": 332,
     "dailyMinutesDown": {
       "2025-07-18": 5,
       "2025-07-23": 5,
@@ -53,7 +53,7 @@
     "timeDay": 31,
     "timeWeek": 150,
     "timeMonth": 179,
-    "timeYear": 2234,
+    "timeYear": 2236,
     "dailyMinutesDown": {
       "2026-01-08": 7,
       "2026-01-09": 10,
@@ -95,7 +95,7 @@
     "timeDay": 179,
     "timeWeek": 125,
     "timeMonth": 101,
-    "timeYear": 644,
+    "timeYear": 642,
     "dailyMinutesDown": {
       "2025-08-10": 60,
       "2025-08-12": 3,
@@ -130,7 +130,7 @@
     "timeDay": 1133,
     "timeWeek": 1701,
     "timeMonth": 2925,
-    "timeYear": 4593,
+    "timeYear": 4605,
     "dailyMinutesDown": {
       "2025-08-29": 85,
       "2025-08-31": 52,
@@ -169,17 +169,17 @@
     "url": "https://nihonmart.id",
     "icon": "https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico",
     "slug": "26981-nihon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.86%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.88%",
-    "time": 2268,
-    "timeDay": 1576,
-    "timeWeek": 1942,
-    "timeMonth": 1591,
-    "timeYear": 2332,
+    "time": 2324,
+    "timeDay": 15786,
+    "timeWeek": 5449,
+    "timeMonth": 2452,
+    "timeYear": 2386,
     "dailyMinutesDown": {
       "2025-07-21": 5,
       "2025-08-06": 5,
@@ -232,7 +232,8 @@
       "2026-05-16": 2,
       "2026-05-31": 2,
       "2026-06-25": 1,
-      "2026-06-30": 1
+      "2026-06-30": 1,
+      "2026-07-14": 0
     }
   },
   {
@@ -250,7 +251,7 @@
     "timeDay": 53,
     "timeWeek": 120,
     "timeMonth": 146,
-    "timeYear": 3400,
+    "timeYear": 3403,
     "dailyMinutesDown": {
       "2025-08-22": 4,
       "2025-08-23": 4,
@@ -325,7 +326,7 @@
     "timeDay": 291,
     "timeWeek": 392,
     "timeMonth": 361,
-    "timeYear": 464,
+    "timeYear": 463,
     "dailyMinutesDown": {
       "2025-08-22": 5,
       "2025-11-13": 5,
