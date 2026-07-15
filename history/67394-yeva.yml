@@ -1,7 +1,7 @@
 url: https://yeva.asia
-status: up
-code: 200
-responseTime: 825
-lastUpdated: 2026-07-15T06:04:28.561Z
+status: down
+code: 429
+responseTime: 53
+lastUpdated: 2026-07-15T22:04:39.096Z
 startTime: 2025-06-11T02:37:23.724Z
 generator: Upptime <https://github.com/upptime/upptime>
