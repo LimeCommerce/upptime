@@ -317,16 +317,16 @@
     "url": "https://yeva.asia",
     "icon": "https://yeva.asia/cdn/shop/files/Logo_Full.png",
     "slug": "67394-yeva",
-    "status": "down",
+    "status": "up",
     "uptime": "99.91%",
-    "uptimeDay": "98.27%",
-    "uptimeWeek": "99.36%",
-    "uptimeMonth": "99.60%",
+    "uptimeDay": "97.97%",
+    "uptimeWeek": "99.32%",
+    "uptimeMonth": "99.59%",
     "uptimeYear": "99.91%",
     "time": 458,
-    "timeDay": 511,
-    "timeWeek": 395,
-    "timeMonth": 381,
+    "timeDay": 508,
+    "timeWeek": 398,
+    "timeMonth": 382,
     "timeYear": 458,
     "dailyMinutesDown": {
       "2025-08-22": 5,
@@ -375,7 +375,7 @@
       "2026-07-15": 10,
       "2026-07-16": 9,
       "2026-07-17": 27,
-      "2026-07-18": 20
+      "2026-07-18": 25
     }
   }
 ]
