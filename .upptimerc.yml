@@ -83,6 +83,7 @@ sites:
       - 201
       - 415
       - 403
+      - 429
     maxResponseTime: 30000
 
 status-website:
