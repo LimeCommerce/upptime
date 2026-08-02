@@ -14,7 +14,7 @@
     "timeDay": 192,
     "timeWeek": 224,
     "timeMonth": 287,
-    "timeYear": 334,
+    "timeYear": 335,
     "dailyMinutesDown": {
       "2025-08-03": 5,
       "2025-08-05": 5,
@@ -49,7 +49,7 @@
     "timeDay": 25,
     "timeWeek": 186,
     "timeMonth": 180,
-    "timeYear": 2158,
+    "timeYear": 2159,
     "dailyMinutesDown": {
       "2026-01-08": 7,
       "2026-01-09": 10,
@@ -91,7 +91,7 @@
     "timeDay": 100,
     "timeWeek": 100,
     "timeMonth": 103,
-    "timeYear": 598,
+    "timeYear": 599,
     "dailyMinutesDown": {
       "2025-08-10": 60,
       "2025-08-12": 3,
@@ -116,17 +116,17 @@
     "url": "https://jade-jakarta.com",
     "icon": "https://jade-jakarta.com/pub/media/favicon/stores/1/favicon-jade.png",
     "slug": "71530-jade",
-    "status": "down",
+    "status": "degraded",
     "uptime": "99.77%",
-    "uptimeDay": "98.36%",
-    "uptimeWeek": "99.58%",
-    "uptimeMonth": "99.87%",
+    "uptimeDay": "97.38%",
+    "uptimeWeek": "99.44%",
+    "uptimeMonth": "99.84%",
     "uptimeYear": "99.74%",
-    "time": 4910,
-    "timeDay": 28032,
-    "timeWeek": 18072,
-    "timeMonth": 10280,
-    "timeYear": 5305,
+    "time": 4968,
+    "timeDay": 30698,
+    "timeWeek": 19085,
+    "timeMonth": 10866,
+    "timeYear": 5377,
     "dailyMinutesDown": {
       "2025-08-31": 49,
       "2025-09-01": 17,
@@ -162,7 +162,7 @@
       "2026-07-24": 2,
       "2026-07-27": 17,
       "2026-07-28": 3,
-      "2026-08-02": 24
+      "2026-08-02": 38
     }
   },
   {
@@ -180,7 +180,7 @@
     "timeDay": 994,
     "timeWeek": 1934,
     "timeMonth": 2746,
-    "timeYear": 2385,
+    "timeYear": 2388,
     "dailyMinutesDown": {
       "2025-08-06": 5,
       "2025-08-18": 13,
@@ -255,7 +255,7 @@
     "timeDay": 70,
     "timeWeek": 116,
     "timeMonth": 147,
-    "timeYear": 3263,
+    "timeYear": 3265,
     "dailyMinutesDown": {
       "2025-08-22": 4,
       "2025-08-23": 4,
@@ -330,7 +330,7 @@
     "timeDay": 574,
     "timeWeek": 628,
     "timeMonth": 390,
-    "timeYear": 455,
+    "timeYear": 456,
     "dailyMinutesDown": {
       "2025-12-03": 5,
       "2025-12-05": 25,
