@@ -1,7 +1,7 @@
 url: https://nihonmart.id
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-08-07T06:56:45.401Z
+status: degraded
+code: 200
+responseTime: 36702
+lastUpdated: 2026-08-07T07:12:26.551Z
 startTime: 2025-06-11T02:37:15.891Z
 generator: Upptime <https://github.com/upptime/upptime>
