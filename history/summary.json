@@ -12,7 +12,7 @@
     "uptimeYear": "99.99%",
     "time": 324,
     "timeDay": 313,
-    "timeWeek": 291,
+    "timeWeek": 279,
     "timeMonth": 305,
     "timeYear": 323,
     "dailyMinutesDown": {
@@ -32,7 +32,7 @@
     "uptimeYear": "99.33%",
     "time": 2017,
     "timeDay": 311,
-    "timeWeek": 223,
+    "timeWeek": 203,
     "timeMonth": 205,
     "timeYear": 2033,
     "dailyMinutesDown": {
@@ -74,7 +74,7 @@
     "uptimeYear": "99.96%",
     "time": 612,
     "timeDay": 126,
-    "timeWeek": 118,
+    "timeWeek": 119,
     "timeMonth": 122,
     "timeYear": 431,
     "dailyMinutesDown": {
@@ -95,17 +95,17 @@
     "url": "https://jade-jakarta.com",
     "icon": "https://jade-jakarta.com/pub/media/favicon/stores/1/favicon-jade.png",
     "slug": "71530-jade",
-    "status": "down",
-    "uptime": "99.75%",
-    "uptimeDay": "97.91%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.89%",
-    "uptimeYear": "99.71%",
-    "time": 6768,
-    "timeDay": 718,
-    "timeWeek": 1123,
-    "timeMonth": 6717,
-    "timeYear": 6232,
+    "status": "up",
+    "uptime": "99.73%",
+    "uptimeDay": "88.91%",
+    "uptimeWeek": "98.42%",
+    "uptimeMonth": "99.60%",
+    "uptimeYear": "99.68%",
+    "time": 6758,
+    "timeDay": 754,
+    "timeWeek": 1083,
+    "timeMonth": 6596,
+    "timeYear": 6221,
     "dailyMinutesDown": {
       "2025-09-13": 4,
       "2025-09-19": 4,
@@ -137,7 +137,7 @@
       "2026-08-03": 225,
       "2026-08-02": 73,
       "2026-08-14": 16,
-      "2026-09-08": 30
+      "2026-09-08": 160
     }
   },
   {
@@ -153,7 +153,7 @@
     "uptimeYear": "99.87%",
     "time": 2613,
     "timeDay": 780,
-    "timeWeek": 3860,
+    "timeWeek": 4130,
     "timeMonth": 2749,
     "timeYear": 2716,
     "dailyMinutesDown": {
@@ -217,7 +217,7 @@
     "uptimeYear": "99.76%",
     "time": 3071,
     "timeDay": 156,
-    "timeWeek": 161,
+    "timeWeek": 149,
     "timeMonth": 181,
     "timeYear": 2739,
     "dailyMinutesDown": {
@@ -260,7 +260,7 @@
     "uptimeYear": "99.97%",
     "time": 133,
     "timeDay": 138,
-    "timeWeek": 114,
+    "timeWeek": 109,
     "timeMonth": 115,
     "timeYear": 132,
     "dailyMinutesDown": {
@@ -280,7 +280,7 @@
     "uptimeYear": "99.90%",
     "time": 454,
     "timeDay": 468,
-    "timeWeek": 438,
+    "timeWeek": 405,
     "timeMonth": 444,
     "timeYear": 432,
     "dailyMinutesDown": {
