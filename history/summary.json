@@ -25,7 +25,7 @@
     "icon": "https://coralisland.wiki/w/favicon.ico",
     "slug": "86723-coral-island",
     "status": "up",
-    "uptime": "99.48%",
+    "uptime": "99.49%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -96,9 +96,9 @@
     "slug": "71530-jade",
     "status": "up",
     "uptime": "99.73%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "98.30%",
-    "uptimeMonth": "99.57%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "98.42%",
+    "uptimeMonth": "99.60%",
     "uptimeYear": "99.68%",
     "time": 6798,
     "timeDay": 19494,
@@ -136,8 +136,7 @@
       "2026-08-03": 225,
       "2026-08-02": 73,
       "2026-08-14": 16,
-      "2026-09-08": 160,
-      "2026-09-12": 11
+      "2026-09-08": 160
     }
   },
   {
@@ -145,13 +144,13 @@
     "url": "https://nihonmart.id",
     "icon": "https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico",
     "slug": "26981-nihon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.85%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.88%",
-    "time": 2693,
+    "time": 2694,
     "timeDay": 1996,
     "timeWeek": 1652,
     "timeMonth": 2755,
@@ -199,7 +198,8 @@
       "2026-07-24": 1,
       "2026-07-28": 5,
       "2026-07-29": 9,
-      "2026-08-07": 155
+      "2026-08-07": 155,
+      "2026-09-12": 0
     }
   },
   {
@@ -217,7 +217,7 @@
     "timeDay": 322,
     "timeWeek": 173,
     "timeMonth": 182,
-    "timeYear": 2678,
+    "timeYear": 2628,
     "dailyMinutesDown": {
       "2025-09-13": 8,
       "2025-09-15": 4,
