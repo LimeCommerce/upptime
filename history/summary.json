@@ -96,13 +96,13 @@
     "slug": "71530-jade",
     "status": "up",
     "uptime": "99.74%",
-    "uptimeDay": "99.67%",
-    "uptimeWeek": "99.11%",
-    "uptimeMonth": "99.62%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.64%",
     "uptimeYear": "99.68%",
     "time": 6719,
     "timeDay": 1536,
-    "timeWeek": 9341,
+    "timeWeek": 9990,
     "timeMonth": 7706,
     "timeYear": 6335,
     "dailyMinutesDown": {
@@ -135,8 +135,7 @@
       "2026-08-03": 225,
       "2026-08-02": 73,
       "2026-08-14": 16,
-      "2026-09-08": 160,
-      "2026-09-15": 5
+      "2026-09-08": 160
     }
   },
   {
