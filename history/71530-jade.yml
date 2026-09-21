@@ -1,7 +1,7 @@
 url: https://jade-jakarta.com
-status: up
-code: 200
-responseTime: 686
-lastUpdated: 2026-09-21T00:48:31.095Z
+status: degraded
+code: 520
+responseTime: 43243
+lastUpdated: 2026-09-21T08:46:22.424Z
 startTime: 2025-06-11T02:37:13.899Z
 generator: Upptime <https://github.com/upptime/upptime>
