@@ -93,17 +93,17 @@
     "url": "https://jade-jakarta.com",
     "icon": "https://jade-jakarta.com/pub/media/favicon/stores/1/favicon-jade.png",
     "slug": "71530-jade",
-    "status": "up",
+    "status": "down",
     "uptime": "99.74%",
-    "uptimeDay": "99.77%",
-    "uptimeWeek": "99.79%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.82%",
     "uptimeMonth": "99.59%",
     "uptimeYear": "99.68%",
-    "time": 8090,
-    "timeDay": 18105,
-    "timeWeek": 17614,
-    "timeMonth": 13685,
-    "timeYear": 7865,
+    "time": 8104,
+    "timeDay": 18175,
+    "timeWeek": 17637,
+    "timeMonth": 13736,
+    "timeYear": 7884,
     "dailyMinutesDown": {
       "2025-09-27": 3,
       "2025-10-08": 9,
@@ -134,7 +134,7 @@
       "2026-08-14": 16,
       "2026-09-08": 160,
       "2026-09-21": 18,
-      "2026-09-24": 3
+      "2026-09-24": 0
     }
   },
   {
