@@ -149,7 +149,7 @@
     "uptimeYear": "99.88%",
     "time": 2757,
     "timeDay": 2136,
-    "timeWeek": 1741,
+    "timeWeek": 1919,
     "timeMonth": 3316,
     "timeYear": 2755,
     "dailyMinutesDown": {
@@ -259,8 +259,8 @@
     "slug": "67394-yeva",
     "status": "up",
     "uptime": "99.92%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.90%",
     "time": 455,
@@ -269,6 +269,7 @@
     "timeMonth": 462,
     "timeYear": 432,
     "dailyMinutesDown": {
+      "2025-12-03": 5,
       "2025-12-05": 25,
       "2025-12-12": 10,
       "2026-01-04": 5,
@@ -315,8 +316,7 @@
       "2026-07-18": 30,
       "2026-07-19": 30,
       "2026-07-20": 20,
-      "2026-07-21": 10,
-      "2026-09-25": 1
+      "2026-07-21": 10
     }
   }
 ]
