@@ -100,7 +100,7 @@
     "uptimeYear": "99.68%",
     "time": 8406,
     "timeDay": 1307,
-    "timeWeek": 17948,
+    "timeWeek": 18486,
     "timeMonth": 15367,
     "timeYear": 8414,
     "dailyMinutesDown": {
@@ -198,11 +198,11 @@
     "url": "https://www.rodalink.com",
     "icon": "https://media.rodalink.com/favicon/websites/1/favicon.png",
     "slug": "54027-rodalink",
-    "status": "up",
-    "uptime": "99.80%",
-    "uptimeDay": "99.74%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.99%",
+    "status": "down",
+    "uptime": "99.81%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.77%",
     "time": 3010,
     "timeDay": 15962,
@@ -227,7 +227,7 @@
       "2026-04-14": 25,
       "2026-05-21": 10,
       "2026-06-09": 10,
-      "2026-10-01": 4
+      "2026-10-01": 0
     }
   },
   {
