@@ -76,7 +76,7 @@
     "timeDay": 60,
     "timeWeek": 121,
     "timeMonth": 118,
-    "timeYear": 258,
+    "timeYear": 256,
     "dailyMinutesDown": {
       "2025-10-30": 1,
       "2025-11-18": 138,
@@ -100,7 +100,7 @@
     "timeDay": 1126,
     "timeWeek": 1303,
     "timeMonth": 15364,
-    "timeYear": 8413,
+    "timeYear": 8424,
     "dailyMinutesDown": {
       "2025-10-08": 9,
       "2025-11-12": 10,
@@ -147,7 +147,7 @@
     "timeDay": 1567,
     "timeWeek": 5804,
     "timeMonth": 3984,
-    "timeYear": 2829,
+    "timeYear": 2831,
     "dailyMinutesDown": {
       "2025-10-08": 9,
       "2025-10-21": 13,
@@ -194,17 +194,17 @@
     "url": "https://www.rodalink.com",
     "icon": "https://media.rodalink.com/favicon/websites/1/favicon.png",
     "slug": "54027-rodalink",
-    "status": "up",
+    "status": "down",
     "uptime": "99.81%",
-    "uptimeDay": "99.77%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.77%",
-    "time": 2989,
-    "timeDay": 6866,
-    "timeWeek": 6862,
-    "timeMonth": 2535,
-    "timeYear": 2522,
+    "time": 2937,
+    "timeDay": 4816,
+    "timeWeek": 6390,
+    "timeMonth": 2483,
+    "timeYear": 2517,
     "dailyMinutesDown": {
       "2026-03-16": 232,
       "2026-03-17": 21,
@@ -223,7 +223,7 @@
       "2026-04-14": 25,
       "2026-05-21": 10,
       "2026-06-09": 10,
-      "2026-10-07": 3
+      "2026-10-07": 0
     }
   },
   {
@@ -261,7 +261,7 @@
     "timeDay": 288,
     "timeWeek": 462,
     "timeMonth": 471,
-    "timeYear": 432,
+    "timeYear": 433,
     "dailyMinutesDown": {
       "2025-12-03": 5,
       "2025-12-05": 25,
