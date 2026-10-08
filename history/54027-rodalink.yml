@@ -1,7 +1,7 @@
 url: https://www.rodalink.com
-status: up
-code: 200
-responseTime: 1637
-lastUpdated: 2026-10-08T14:35:58.025Z
+status: down
+code: 503
+responseTime: 20245
+lastUpdated: 2026-10-08T14:56:54.056Z
 startTime: 2025-06-11T02:37:17.947Z
 generator: Upptime <https://github.com/upptime/upptime>
