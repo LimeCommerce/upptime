@@ -136,17 +136,17 @@
     "url": "https://nihonmart.id",
     "icon": "https://nihonmart.id/pub/media/favicon/stores/1/favicon_1.ico",
     "slug": "26981-nihon",
-    "status": "down",
+    "status": "up",
     "uptime": "99.86%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "97.25%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.88%",
-    "time": 2847,
-    "timeDay": 2019,
-    "timeWeek": 5783,
-    "timeMonth": 4008,
-    "timeYear": 2828,
+    "time": 2846,
+    "timeDay": 1833,
+    "timeWeek": 5407,
+    "timeMonth": 3947,
+    "timeYear": 2826,
     "dailyMinutesDown": {
       "2025-10-21": 13,
       "2025-10-22": 6,
@@ -185,7 +185,7 @@
       "2026-07-28": 5,
       "2026-07-29": 9,
       "2026-08-07": 155,
-      "2026-10-09": 0
+      "2026-10-09": 40
     }
   },
   {
