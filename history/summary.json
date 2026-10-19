@@ -12,7 +12,7 @@
     "uptimeYear": "99.99%",
     "time": 323,
     "timeDay": 303,
-    "timeWeek": 327,
+    "timeWeek": 333,
     "timeMonth": 308,
     "timeYear": 323,
     "dailyMinutesDown": {
@@ -32,7 +32,7 @@
     "uptimeYear": "99.33%",
     "time": 1906,
     "timeDay": 107,
-    "timeWeek": 169,
+    "timeWeek": 151,
     "timeMonth": 192,
     "timeYear": 1889,
     "dailyMinutesDown": {
@@ -74,7 +74,7 @@
     "uptimeYear": "99.97%",
     "time": 516,
     "timeDay": 118,
-    "timeWeek": 141,
+    "timeWeek": 146,
     "timeMonth": 129,
     "timeYear": 225,
     "dailyMinutesDown": {
@@ -98,7 +98,7 @@
     "uptimeYear": "99.68%",
     "time": 8233,
     "timeDay": 1401,
-    "timeWeek": 2520,
+    "timeWeek": 2685,
     "timeMonth": 15755,
     "timeYear": 8488,
     "dailyMinutesDown": {
@@ -138,13 +138,13 @@
     "slug": "26981-nihon",
     "status": "up",
     "uptime": "99.85%",
-    "uptimeDay": "96.72%",
-    "uptimeWeek": "99.53%",
+    "uptimeDay": "96.77%",
+    "uptimeWeek": "99.54%",
     "uptimeMonth": "99.80%",
     "uptimeYear": "99.87%",
     "time": 2977,
     "timeDay": 16822,
-    "timeWeek": 10372,
+    "timeWeek": 10942,
     "timeMonth": 6563,
     "timeYear": 3185,
     "dailyMinutesDown": {
@@ -186,8 +186,7 @@
       "2026-07-29": 9,
       "2026-08-07": 155,
       "2026-10-09": 40,
-      "2026-10-18": 46,
-      "2026-10-19": 1
+      "2026-10-18": 46
     }
   },
   {
@@ -203,7 +202,7 @@
     "uptimeYear": "99.77%",
     "time": 3175,
     "timeDay": 119,
-    "timeWeek": 113,
+    "timeWeek": 111,
     "timeMonth": 4657,
     "timeYear": 2665,
     "dailyMinutesDown": {
@@ -240,7 +239,7 @@
     "uptimeYear": "99.97%",
     "time": 132,
     "timeDay": 144,
-    "timeWeek": 149,
+    "timeWeek": 153,
     "timeMonth": 116,
     "timeYear": 116,
     "dailyMinutesDown": {
@@ -260,7 +259,7 @@
     "uptimeYear": "99.90%",
     "time": 455,
     "timeDay": 457,
-    "timeWeek": 425,
+    "timeWeek": 438,
     "timeMonth": 432,
     "timeYear": 434,
     "dailyMinutesDown": {
