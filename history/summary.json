@@ -136,7 +136,7 @@
     "timeDay": 129,
     "timeWeek": 1595,
     "timeMonth": 1959,
-    "timeYear": 3098,
+    "timeYear": 3101,
     "dailyMinutesDown": {
       "2025-11-24": 14,
       "2025-11-30": 5,
@@ -211,9 +211,9 @@
     "url": "https://cnfstore.com",
     "icon": "https://cnfstore.com/pub/media/favicon/stores/1/favicon.png",
     "slug": "19836-cnf",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -222,7 +222,9 @@
     "timeWeek": 95,
     "timeMonth": 156,
     "timeYear": 117,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-21": 0
+    }
   },
   {
     "name": "#67394 Yeva",
