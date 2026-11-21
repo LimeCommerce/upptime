@@ -211,19 +211,19 @@
     "url": "https://cnfstore.com",
     "icon": "https://cnfstore.com/pub/media/favicon/stores/1/favicon.png",
     "slug": "19836-cnf",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 135,
-    "timeDay": 64,
-    "timeWeek": 95,
-    "timeMonth": 156,
+    "timeDay": 73,
+    "timeWeek": 93,
+    "timeMonth": 153,
     "timeYear": 117,
     "dailyMinutesDown": {
-      "2026-11-21": 0
+      "2026-11-21": 1
     }
   },
   {
